@@ -1,0 +1,60 @@
+@media (max-width: 480px) {
+	.responsive.single.learnpress {
+		.page-title[class*=courses_single] {
+			.main-top {
+				padding-top: 100px;
+				padding-bottom: 50px;
+			}
+			.heading_info {
+				ul {
+					li {
+						margin-top: 20px;
+						&:nth-child(3) {
+							border-right: 0;
+						}
+					}
+				}
+			}
+		}
+
+		.learn-press-video-intro {
+			iframe {
+				width: 100%;
+			}
+		}
+
+		#row-course-instructor .thim-about-author {
+			.author-wrapper {
+				.author-avatar {
+					width: 50px;
+					.thim-author-social {
+						li {
+							display: block;
+						}
+					}
+				}
+				.author-bio {
+					width: calc(100% - 50px);
+					width: -webkit-calc(100% - 50px);
+					width: -moz-calc(100% - 50px);
+				}
+			}
+		}
+
+		#course-landing {
+			.course-curriculum ul.curriculum-sections .section .section-content .course-lesson .meta-center {
+				max-width: calc(100% - 50px);
+				max-width: -webkit-calc(100% - 50px);
+				max-width: -moz-calc(100% - 50px);
+				.course-item-title {
+					text-align: left;
+				}
+			}
+		}
+
+		#row-course-instructor {
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+	}
+}

@@ -1,0 +1,18 @@
+/*
+ * Style for button */
+
+input[type="submit"],
+.button,
+.submit {
+	color: #fff;
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border: 0;
+	padding: 8px 25px;
+	display: inline-block;
+	@include transition(all 0.5s);
+	&:hover {
+		color: #fff;
+	}
+}

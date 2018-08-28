@@ -1,0 +1,128 @@
+.navigation {
+	.width-navigation {
+		.inner-navigation {
+			// Mega menu
+			.mega-menu-wrapper {
+
+				#mega-menu-primary {
+					li.menu-item a[class^='dashicons']:before {
+						font-family: dashicons;
+					}
+					// sub menu items (megamenu)
+					> li.menu-megamenu > ul.sub-menu {
+
+						@media (min-width: 601px) {
+							@for $of from 1 through 8 {
+								@for $cols from 1 through $of {
+									li.menu-columns-#{$cols}-of-#{$of} {
+										width: (100% / $of) * $cols;
+									}
+								}
+							}
+						}
+					}
+
+					li.menu-flyout {
+						&.align-bottom-right {
+							text-align: right;
+						}
+						&.item-align-right {
+							> .sub-menu {
+								left: auto;
+								right: 0;
+							}
+						}
+					}
+				}
+
+				.mega-menu {
+					float: left;
+					position: static;
+					.menu-item {
+						&.hide-on-desktop {
+							@media (min-width: 769px) {
+								display: none;
+							}
+						}
+					}
+
+					.menu-megamenu {
+						@media (min-width: 769px) {
+							position: static;
+						}
+						li {
+							vertical-align: top;
+							a {
+								padding: 14px 0px;
+							}
+							ul {
+								margin: 0;
+								li {
+									padding: 0;
+								}
+							}
+							&:after {
+								left: 0;
+								right: 0;
+								bottom: 0;
+							}
+						}
+
+						.sub-menu {
+							> li {
+								&:after {
+									display: none;
+								}
+							}
+						}
+
+					}
+				}
+				.menu-right {
+					float: left;
+					> .widget{
+						.btn-book{
+							&:before{
+								top: -15px;
+								bottom: -10px;
+							}
+							.inner-bottom{
+								bottom: -20px;
+							}
+						}
+						&.widget_shopping_cart{
+							.widget_shopping_cart_content{
+								top: 57px;
+							}
+						}
+					}
+				}
+			}
+			// Mega menu
+		}
+	}
+	.tm-table {
+		position: relative;
+	}
+}
+
+.mega-menu {
+	@media (max-width: 768px) {
+		.menu-item {
+			&.hide-sub-menu-on-mobile {
+				.icon-toggle,
+				.mega-sub-menu {
+					visibility: hidden;
+					display: none;
+				}
+			}
+		}
+	}
+	//	Widget products
+	.widget_products {
+		img {
+			max-width: 60px;
+		}
+	}
+	//	End: widget products
+}

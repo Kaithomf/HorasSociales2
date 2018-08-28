@@ -1,0 +1,58 @@
+/*!
+Theme Name: Education Pack
+Theme URI: http://university.thimpress.com/
+Author: ThimPress
+Author URI: http://thimpress.com
+Description: A free University WordPress theme for all universities, colleges, schools, educational institutions, learning centers, learning hubs. This theme is best used as an Education WordPress Theme.
+Version: 1.6
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: two-columns, three-columns, left-sidebar, right-sidebar, custom-background, custom-header, custom-menu, editor-style, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+Text Domain: education-pack
+Domain Path: /languages/
+*/
+// Import variables
+@import "variables";
+// Import style Bootstrap
+@import "bootstrap/bootstrap";
+// Import style Bootstrap
+@import "awesome/font-awesome";
+@import "magnific-popup/main";
+// Import Mixins
+@import "mixins/extend";
+@import "mixins/mixins-master";
+// Import reset style
+@import "reset-style/reset-style";
+// Import style header
+@import "header/header";
+@import "header/main-menu";
+@import "header/mega-menu";
+// Import style footer
+@import "widgets/widgets";
+//Import Learnpress
+@import "learnpress/learnpress";
+// Import Breadcrumb
+@import "breadcrumb/breadcrumb";
+// Import style blog
+@import "sidebar/sidebar";
+@import "blog/blog-archive";
+@import "blog/blog-single";
+// Import style footer
+@import "footer/footer";
+// Import responsive
+@import "responsive/responsive";
+// Import features style
+@import "features/preloading/spinkit";
+@import "features/back-to-top/back-to-top";
+// Import dropkickjs style
+@import "elements/dropkick";
+// Import fancyboxjs style
+@import "elements/fancybox";
+// Import owlcarousel style
+@import "elements/owlcarousel";
+// Import button style
+@import "buttons/buttons";
+// Import Common style
+@import "general-style/general-style";
+@import "reset-style/print-style";
+

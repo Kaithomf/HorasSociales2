@@ -1,0 +1,307 @@
+/*
+ * Style sidebar blog
+ */
+
+.search-form {
+  position: relative;
+  line-height: 42px;
+  border: none;
+  &:after {
+    content: "\f002";
+    font: normal normal normal 14px/1 FontAwesome;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+  }
+
+  label {
+    width: 100%;
+    display: inline-block;
+    font-weight: 400;
+    margin: 0;
+  }
+  .search-field {
+    line-height: 40px;
+    background: #fff;
+    height: 42px;
+    padding: 0 60px 0 15px;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid #eee;
+    @include transition(all .3s ease-in-out);
+  }
+  .search-submit {
+    width: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    z-index: 2;
+    background: transparent !important;
+    @include rounded(0);
+    line-height: 42px;
+    height: 42px;
+    color: transparent;
+    font-size: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
+
+.widget-area .widget {
+  position: relative;
+  .widget-title {
+    text-transform: capitalize;
+    margin-bottom: 50px;
+    font-weight: bold;
+    margin-top: 0;
+    text-transform: uppercase;
+    padding-bottom: 17px;
+    position: relative;
+    line-height: 1;
+    &:before {
+      content: '';
+      border-top: 1px solid #dddddd;
+      width: 170px;
+      height: 1px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+    &:after {
+      content: '';
+      height: 4px;
+      width: 50px;
+      position: absolute;
+      bottom: 1px;
+      left: 0;
+    }
+  }
+  &.widget_archive,
+  &.widget_categories,
+  &.widget_pages,
+  &.widget_meta,
+  &.widget_recent_comments,
+  &.widget_recent_entries,
+  &.widget_nav_menu {
+    ul li {
+      .children,
+      .sub-menu {
+        padding-left: 15px;
+        li {
+          border: none;
+          padding-bottom: 0;
+        }
+      }
+      a {
+        &:before {
+          content: "\f0da";
+          font-family: FontAwesome;
+          margin-right: 10px;
+          color: #333333;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  &.widget_recent_comments {
+    ul {
+      li {
+        &:before {
+          content: "\f0da";
+          font-family: FontAwesome;
+          margin-right: 10px;
+          color: #333333;
+          font-size: 14px;
+        }
+        a {
+          &:before {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  &.widget_rss {
+    ul {
+      li {
+        .rsswidget {
+          width: 100%;
+          display: inline-block;
+        }
+      }
+    }
+    .rss-date {
+      font-size: 16px;
+      font-style: italic;
+    }
+  }
+  ul {
+    margin: 0;
+    li {
+      margin: 0;
+      padding: 10px 0px 10px 0;
+      list-style: none;
+      line-height: 20px;
+      display: block;
+      a {
+        font-weight: normal;
+        font-size: 16px;
+        text-transform: capitalize;
+        color: #666666;
+        line-height: 22px;
+      }
+    }
+  }
+
+  select {
+    max-width: 100%;
+  }
+
+  .dk-select {
+    width: 100%;
+    line-height: 40px;
+    .dk-selected {
+      height: 40px;
+    }
+    ul {
+      li {
+        padding: 10px;
+      }
+    }
+  }
+
+  // Thim Recent Posts
+  &.widget_thim_recent_posts {
+      ul {
+         margin: 10px 0px 0px;
+        li {
+          margin-bottom: 40px;
+          display: inline-block;
+          padding: 0;
+          position: relative;
+          padding-left: 130px;
+          min-height: 100px;
+          &:last-child {
+            margin: 0;
+          }
+          &.no-thumbnail {
+            padding: 0;
+          }
+          .post_thumbnail {
+            position: absolute;
+            top: 0;
+            left: 0;
+          }
+          .title {
+            margin: 0;
+            line-height: 24px;
+            font-size: 14px;
+            position: relative;
+            top: -4px;
+            a {
+              font-weight: bold;
+              font-size: 14px;
+              text-transform: none;
+              color: #333333;
+              line-height: 24px;
+              @include transition(all 0.5s);
+            }
+          }
+          .time {
+            margin-top: 20px;
+            font-size: 12px;
+            font-style: italic;
+            color: #666666;
+            font-weight: bold;
+          }
+        }
+      }
+  }
+
+  //Thim Social Link
+  &.widget_social_link_widget {
+      ul {
+          width: 100%;
+          float: left;
+          margin-top: 5px;
+          li {
+              width: 100%;
+              float: left;
+              position: relative;
+              margin-bottom: 10px;
+              padding: 0;
+
+              &:last-child {
+                margin: 0;
+              }
+              a {
+                  color: #ffffff;
+                  line-height: 40px;
+                  font-size: 16px;
+                  width: 100%;
+                  float: left;
+                  border: none;
+                  height: 40px;
+                  text-align: left;
+                  border-radius: 0;
+              }
+              i {
+                  width: 47px;
+                  float: left;
+                  margin-right: 28px;
+                  position: relative;
+                  text-align: center;
+                  font-size: 14px;
+                  line-height: 40px;
+                  display: inline-block;
+                  &:after {
+                      content: '';
+                      height: 26px;
+                      width: 1px;
+                      background: #ffffff;
+                      position: absolute;
+                      right: 0;
+                      top: 50%;
+                      margin-top: -13px;
+                  }
+              }
+              &.facebook {
+                  background: #3B5998;
+              }
+              &.twitter {
+                  background: #55acee;
+              }
+              &.skype {
+                  background: #00aff0;
+              }
+              &.pinterest {
+                  background: #cb2027;
+              }
+              &.google {
+                  background: #dd4b39;
+              }
+              &.tumblr {
+                  background: #32506d;
+              }
+              &.linkedin {
+                  background: #007bb5;
+              }
+              &.rss {
+                  background: #ff6600;
+              }
+              &.instagram {
+                  background: #125688;
+              }
+              &.youtube {
+                background: #bb0000;
+              }
+          }
+      }
+  }
+}
+

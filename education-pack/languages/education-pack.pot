@@ -1,0 +1,2382 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: University WP\n"
+"POT-Creation-Date: 2017-12-25 09:55+0700\n"
+"PO-Revision-Date: 2017-12-25 09:55+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.7.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:19
+msgid "404!"
+msgstr ""
+
+#: 404.php:20
+msgid "Page not found!"
+msgstr ""
+
+#: 404.php:21
+#, php-format
+msgid ""
+"We couldn't find the page you're looking for. Back to <a href=\"%s"
+"\">Homepage</a>"
+msgstr ""
+
+#: comments.php:27 inc/admin/customizer-sections/blog-general.php:142
+msgid "Comments"
+msgstr ""
+
+#: comments.php:32 comments.php:44
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:33 comments.php:45
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:34 comments.php:46
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:51
+msgid "No comments yet! You be the first to comment."
+msgstr ""
+
+#: comments.php:54
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:60
+msgid "Message"
+msgstr ""
+
+#: education-pack-demo-data/education-pack-demo-data.php:61
+#: education-pack-demo-data/education-pack-demo-data.php:68
+msgid "Please try again later."
+msgstr ""
+
+#: functions.php:56
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:61
+msgid "Copyright Menu"
+msgstr ""
+
+#: functions.php:131
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:133
+msgid "Appears in the Sidebar section of the site."
+msgstr ""
+
+#: functions.php:142
+msgid "Header Right"
+msgstr ""
+
+#: functions.php:144
+msgid "Display in header right."
+msgstr ""
+
+#: functions.php:158
+msgid "Sidebar display widgets."
+msgstr ""
+
+#: inc/admin/customizer-options.php:34
+#: inc/admin/customizer-sections/general-logo.php:13
+msgid "Logo"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:12
+#: inc/admin/customizer-sections/footer-options.php:11
+#: inc/admin/customizer-sections/page-title.php:12
+#: thim-education-pack/widgets/google-map/google-map.php:75
+msgid "Settings"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:25
+msgid "Archive Page"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:31
+msgid "Blog Columns"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:32
+msgid "Choose the number of columns for archive post."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:37
+#: thim-education-pack/widgets/list-post/list-post.php:46
+msgid "1"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:38
+#: thim-education-pack/widgets/list-post/list-post.php:47
+msgid "2"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:39
+#: thim-education-pack/widgets/list-post/list-post.php:48
+msgid "3"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:40
+#: thim-education-pack/widgets/list-post/list-post.php:49
+msgid "4"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:47
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:48
+msgid ""
+"Choose the number of words you want to cut from the content to be the "
+"excerpt of search and archive"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:61
+msgid "Display Excerpt"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:62
+msgid "Turn on to display excerpt content."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:66
+#: inc/admin/customizer-sections/blog-general.php:79
+#: inc/admin/customizer-sections/blog-general.php:107
+#: inc/admin/customizer-sections/blog-general.php:120
+#: inc/admin/customizer-sections/blog-general.php:133
+#: inc/admin/customizer-sections/blog-general.php:147
+#: inc/admin/customizer-sections/blog-general.php:160
+#: inc/admin/customizer-sections/footer-options.php:29
+#: inc/admin/customizer-sections/general-features.php:27
+#: inc/admin/customizer-sections/general-features.php:44
+#: inc/admin/customizer-sections/general-features.php:61
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:210
+#: inc/admin/customizer-sections/header-layouts.php:46
+#: inc/admin/customizer-sections/header-main-menu.php:88
+#: inc/admin/customizer-sections/header-sticky-menu.php:28
+#: inc/admin/customizer-sections/page-title-breadcrumb.php:28
+#: inc/admin/customizer-sections/page-title.php:28
+#: inc/admin/customizer-sections/page-title.php:45
+#: inc/admin/customizer-sections/responsive.php:27
+#: thim-education-pack/inc/admin/customizer-sections/general-features.php:18
+#: thim-education-pack/inc/admin/customizer-sections/general-features.php:35
+msgid "On"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:67
+#: inc/admin/customizer-sections/blog-general.php:80
+#: inc/admin/customizer-sections/blog-general.php:108
+#: inc/admin/customizer-sections/blog-general.php:121
+#: inc/admin/customizer-sections/blog-general.php:134
+#: inc/admin/customizer-sections/blog-general.php:148
+#: inc/admin/customizer-sections/blog-general.php:161
+#: inc/admin/customizer-sections/footer-options.php:30
+#: inc/admin/customizer-sections/general-features.php:28
+#: inc/admin/customizer-sections/general-features.php:45
+#: inc/admin/customizer-sections/general-features.php:62
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:211
+#: inc/admin/customizer-sections/header-layouts.php:47
+#: inc/admin/customizer-sections/header-main-menu.php:89
+#: inc/admin/customizer-sections/header-sticky-menu.php:29
+#: inc/admin/customizer-sections/page-title-breadcrumb.php:29
+#: inc/admin/customizer-sections/page-title.php:29
+#: inc/admin/customizer-sections/page-title.php:46
+#: inc/admin/customizer-sections/responsive.php:28
+#: thim-education-pack/inc/admin/customizer-sections/general-features.php:19
+#: thim-education-pack/inc/admin/customizer-sections/general-features.php:36
+msgid "Off"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:74
+msgid "Display Readmore"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:75
+msgid "Turn on to display readmore button."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:96
+msgid "Single Page"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:102
+msgid "Featured Image"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:103
+msgid "Turn on to display featured images on single blog posts.."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:115
+msgid "Navigation"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:116
+msgid "Turn on to display navigation."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:128
+#: inc/custom-functions.php:217 inc/custom-functions.php:258
+msgid "Author"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:129
+msgid "Turn on to display author."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:143
+msgid "Turn on to display comments."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:155
+msgid "Related Posts"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:156
+msgid "Turn on to display related posts."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:168
+msgid "Numbers of Related Post"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-general.php:188
+msgid "Columns of Related Post"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:12
+#: inc/admin/customizer-sections/general-layouts.php:12
+#: inc/admin/customizer-sections/header-layouts.php:11
+msgid "Layouts"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:24
+msgid "Blog Archive Layouts"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:25
+msgid ""
+"Allows you to choose a layout to display for all blog archive, blog category "
+"page on your site."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:42
+msgid "Sidebar Left For Blog Archive Layout "
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:43
+msgid ""
+"Allows you to select a sidebar to display in sidebar left when you used Full "
+"sidebar layout on Blog archive layout."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:64
+msgid "Sidebar Right For Blog Archive Layout"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:65
+msgid ""
+"Allows you to select a sidebar to display in sidebar right when you used "
+"Full sidebar layout on Archive layout."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:88
+msgid "Blog Single Layouts"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:89
+msgid ""
+"Allows you to choose a layout to display for only blog single page on your "
+"site."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:106
+#: inc/admin/customizer-sections/general-layouts.php:123
+msgid "Sidebar Left For Post Layout"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:107
+msgid ""
+"Allows you to select a sidebar to display in sidebar left when you used Full "
+"sidebar layout on Post layout."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:127
+#: inc/admin/customizer-sections/general-layouts.php:144
+msgid "Sidebar Right For Post Layout"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-layouts.php:128
+msgid ""
+"Allows you to select a sidebar to display in sidebar right when you used "
+"Full sidebar layout on Post layout."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:12
+msgid "Meta Tags"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:22
+msgid "Show Author"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:23
+msgid "Allows you to show author meta tags to display at all blog page."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:28
+#: inc/admin/customizer-sections/blog-meta.php:45
+#: inc/admin/customizer-sections/blog-meta.php:62
+#: inc/admin/customizer-sections/blog-meta.php:79
+#: inc/admin/customizer-sections/blog-meta.php:96
+msgid "Show"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:29
+#: inc/admin/customizer-sections/blog-meta.php:46
+#: inc/admin/customizer-sections/blog-meta.php:63
+#: inc/admin/customizer-sections/blog-meta.php:80
+#: inc/admin/customizer-sections/blog-meta.php:97
+msgid "Hide"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:39
+msgid "Show Date"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:40
+msgid "Allows you to show date meta tags to display at all blog page."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:56
+msgid "Show Category"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:57
+msgid "Allows you to show category meta tags to display at single post page."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:73
+msgid "Show Tags"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:74
+msgid "Allows you to show tags meta tags to display at single post page."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:90
+msgid "Show Comment Number"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-meta.php:91
+msgid "Allows you to show comment meta tags to display at single post page."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-sharing.php:12
+msgid "Social Share"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-sharing.php:22
+msgid "Sortable Buttons Sharing"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-sharing.php:23
+msgid ""
+"Click on eye icons to show or hide buttons. Use drag and drop to change the "
+"position of social share icons.."
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-sharing.php:34
+#: inc/custom-functions.php:699
+#: thim-education-pack/widgets/social-link/social-link.php:29
+msgid "Facebook"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-sharing.php:35
+#: inc/custom-functions.php:703
+#: thim-education-pack/widgets/social-link/social-link.php:35
+msgid "Twitter"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-sharing.php:36
+#: inc/custom-functions.php:705 inc/template-tags.php:224
+#: thim-education-pack/widgets/social-link/social-link.php:47
+msgid "Pinterest"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-sharing.php:37
+#: inc/custom-functions.php:701
+#: thim-education-pack/widgets/social-link/social-link.php:53
+msgid "Google Plus"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog-sharing.php:38
+msgid "Fancy"
+msgstr ""
+
+#: inc/admin/customizer-sections/blog.php:12 inc/custom-functions.php:210
+#: inc/custom-functions.php:250
+msgid "Blog"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-copyright.php:11
+msgid "Copyright"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-copyright.php:22
+#: inc/admin/customizer-sections/footer-options.php:65
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:34
+#: inc/admin/customizer-sections/general-styling.php:99
+#: inc/admin/customizer-sections/header-layouts.php:58
+#: inc/admin/customizer-sections/header-sticky-menu.php:57
+#: inc/admin/customizer-sections/header-sub-menu.php:22
+#: inc/admin/customizer-sections/page-title-styling.php:41
+#: inc/admin/customizer-sections/responsive.php:80
+msgid "Background Color"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-copyright.php:23
+msgid "Allows you to choose background color for your copyright area. "
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-copyright.php:44
+#: inc/admin/customizer-sections/header-main-menu.php:22
+msgid "Fonts"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-copyright.php:45
+msgid "Allows you to select all font font properties for copyright. "
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-copyright.php:60
+#: inc/admin/customizer-sections/footer-options.php:86
+msgid "Colors"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-copyright.php:64
+#: inc/admin/customizer-sections/footer-options.php:91
+#: thim-education-pack/widgets/list-link/list-link.php:25
+#: thim-education-pack/widgets/list-link/list-link.php:26
+msgid "Text"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-copyright.php:65
+#: inc/admin/customizer-sections/footer-options.php:92
+#: thim-education-pack/widgets/list-link/list-link.php:35
+msgid "Link"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-copyright.php:66
+#: inc/admin/customizer-sections/footer-options.php:93
+msgid "Hover"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-options.php:23
+msgid "Show Footer Widgets"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-options.php:24
+msgid "Turn on to display footer widgets."
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-options.php:40
+msgid "Sidebar Number"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-options.php:41
+msgid "Controls the number of columns in the footer."
+msgstr ""
+
+#: inc/admin/customizer-sections/footer-options.php:90
+#: inc/admin/customizer-sections/page-title-styling.php:12
+#: thim-education-pack/widgets/feature/feature.php:25
+#: thim-education-pack/widgets/google-map/google-map.php:24
+#: thim-education-pack/widgets/icon-box/icon-box.php:29
+#: thim-education-pack/widgets/list-link/list-link.php:30
+#: thim-education-pack/widgets/list-post/list-post.php:59
+#: thim-education-pack/widgets/slider/slider.php:35
+msgid "Title"
+msgstr ""
+
+#: inc/admin/customizer-sections/footer.php:12
+msgid "Footer"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-custom-css.php:12
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:13
+msgid "Extra Features"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:22
+msgid "RTL Support"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:38
+msgid "Smooth Scrolling"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:39
+msgid "Turn on to enable smooth scrolling."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:55
+msgid "Back To Top"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:56
+msgid ""
+"Turn on to enable the Back To Top script which adds the scrolling to top "
+"functionality."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:72
+msgid "Preloading"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:96
+msgid "Preloading Custom Image"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:112
+msgid "Preloading Color"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:116
+msgid "Background color"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-features.php:117
+msgid "Icon color"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:24
+msgid "Site Layouts"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:25
+msgid "Allows you to choose a layout to display for all contents on your site."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:43
+msgid "Archive Layouts"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:44
+msgid ""
+"Allows you to choose a layout to display for all archive pages on your site."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:61
+msgid "Sidebar Left For Archive Layout "
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:62
+msgid ""
+"Allows you to select a sidebar to display in sidebar left when you used Full "
+"sidebar layout on archive layouts."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:82
+msgid "Sidebar Right For Archive Layout"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:83
+msgid ""
+"Allows you to select a sidebar to display in sidebar right when you used "
+"Full sidebar layout on archive layouts."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:105
+msgid "Single Layouts"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:106
+msgid "Allows you to choose a layout to display for single pages on your site."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:124
+msgid ""
+"Allows you to select a sidebar to display in sidebar left when you used Full "
+"sidebar layout on single layouts."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:145
+msgid ""
+"Allows you to select a sidebar to display in sidebar right when you used "
+"Full sidebar layout on single layouts."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:167
+msgid "Page Layouts"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:168
+msgid "Allows you to choose a layout to display for all pages on your site."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:185
+msgid "Sidebar Left For Page Layout"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:186
+msgid ""
+"Allows you to select a sidebar to display in sidebar left when you used Full "
+"sidebar layout on page layouts."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:206
+msgid "Sidebar Right For Page Layout"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-layouts.php:207
+msgid ""
+"Allows you to select a sidebar to display in sidebar right when you used "
+"Full sidebar layout on page layouts."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-logo.php:14
+msgid "Allows you to add, remove, change logo on your site. "
+msgstr ""
+
+#: inc/admin/customizer-sections/general-logo.php:26
+msgid "Sticky Logo"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-logo.php:27
+msgid "Allows you to add, remove, change sticky logo on your site. "
+msgstr ""
+
+#: inc/admin/customizer-sections/general-logo.php:39
+msgid "Retina Logo"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-logo.php:40
+msgid ""
+"Select an image file for the retina version of the logo. It should be "
+"exactly 2x the size of the logo."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-logo.php:50
+msgid "Logo width"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-logo.php:51
+msgid ""
+"Allows you to assign a value for logo width. Example: 10px, 3em, 48%, 90vh "
+"etc."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:16
+msgid "Boxed Background"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:21
+#: inc/admin/customizer-sections/general-styling.php:85
+msgid "Select Background Type"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:22
+msgid ""
+"Allows you to select a background for body content when you selected box "
+"layout in General Layouts"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:26
+#: inc/admin/customizer-sections/general-styling.php:90
+msgid "Color"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:27
+#: inc/admin/customizer-sections/general-styling.php:91
+#: thim-education-pack/widgets/brands/brands.php:30
+#: thim-education-pack/widgets/single-image/single-image.php:25
+#: thim-education-pack/widgets/slider/slider.php:30
+#: thim-education-pack/widgets/testimonials/testimonials.php:31
+msgid "Image"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:28
+#: inc/admin/customizer-sections/general-styling.php:92
+msgid "Pattern"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:57
+#: inc/admin/customizer-sections/general-styling.php:122
+msgid "Background image"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:78
+#: inc/admin/customizer-sections/general-styling.php:143
+msgid "Background Repeat"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:82
+#: inc/admin/customizer-sections/general-styling.php:147
+msgid "Tile"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:83
+#: inc/admin/customizer-sections/general-styling.php:148
+msgid "Tile Horizontally"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:84
+#: inc/admin/customizer-sections/general-styling.php:149
+msgid "Tile Vertically"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:85
+#: inc/admin/customizer-sections/general-styling.php:150
+msgid "No Repeat"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:106
+#: inc/admin/customizer-sections/general-styling.php:171
+msgid "Background Position"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:110
+#: inc/admin/customizer-sections/general-styling.php:175
+#: inc/admin/customizer-sections/responsive.php:66
+#: thim-education-pack/widgets/heading/heading.php:48
+msgid "Left"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:111
+#: inc/admin/customizer-sections/general-styling.php:176
+#: thim-education-pack/widgets/heading/heading.php:49
+msgid "Center"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:112
+#: inc/admin/customizer-sections/general-styling.php:177
+#: inc/admin/customizer-sections/responsive.php:67
+#: thim-education-pack/widgets/heading/heading.php:50
+msgid "Right"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:133
+#: inc/admin/customizer-sections/general-styling.php:198
+msgid "Background Attachment"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:137
+#: inc/admin/customizer-sections/general-styling.php:202
+msgid "Scroll"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:138
+#: inc/admin/customizer-sections/general-styling.php:203
+msgid "Fixed"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:159
+#: inc/admin/customizer-sections/general-styling.php:224
+msgid "Select a Background Pattern"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:205
+msgid "Boxed Layouts Box Shadow"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling-boxed-bg.php:206
+msgid ""
+"Allows you to enable or disable box shadow at body tag when you selected "
+"boxed layout. "
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling.php:12
+msgid "Styling"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling.php:22
+msgid "Primary Color"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling.php:23
+msgid "Allows you to choose a primary color for your site."
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling.php:80
+msgid "Main Content Background"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-styling.php:86
+msgid "Allows you to select a background for body tag content on your site"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:16
+msgid "Headings"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:20
+msgid "Heading Font-Family"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:21
+msgid "Allows you to select font-family for headings (h1, h2, h3, h4, h5, h6)"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:57
+msgid "Heading 1"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:58
+msgid "Allows you to select all font properties of H1 tag for your site"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:88
+msgid "Heading 2"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:89
+msgid "Allows you to select all font properties of H2 tag for your site"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:119
+msgid "Heading 3"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:120
+msgid "Allows you to select all font properties of H3 tag for your site"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:150
+msgid "Heading 4"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:151
+msgid "Allows you to select all font properties of H4 tag for your site"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:181
+msgid "Heading 5"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:182
+msgid "Allows you to select all font properties of H5 tag for your site"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:212
+msgid "Heading 6"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography-heading.php:213
+msgid "Allows you to select all font properties of H6 tag for your site"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography.php:13
+msgid "Typography"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography.php:25
+msgid "Body"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography.php:29
+msgid "Body Font"
+msgstr ""
+
+#: inc/admin/customizer-sections/general-typography.php:30
+msgid "Allows you to select all font properties of body tag for your site"
+msgstr ""
+
+#: inc/admin/customizer-sections/general.php:12
+msgid "General"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-layouts.php:22
+msgid "Header Positions"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-layouts.php:23
+msgid "Allows you can select position layout for header layout. "
+msgstr ""
+
+#: inc/admin/customizer-sections/header-layouts.php:29
+msgid "Default"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-layouts.php:30
+msgid "Overlay"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-layouts.php:40
+msgid "Show Header Right"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-layouts.php:41
+msgid "Allows you to enable or disable Header right."
+msgstr ""
+
+#: inc/admin/customizer-sections/header-layouts.php:59
+msgid "Allows you can choose background color for your header. "
+msgstr ""
+
+#: inc/admin/customizer-sections/header-main-menu.php:11
+msgid "Main Menu"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-main-menu.php:23
+msgid "Allows you to select all font font properties for header. "
+msgstr ""
+
+#: inc/admin/customizer-sections/header-main-menu.php:82
+msgid "Show Search"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-main-menu.php:83
+msgid "Allows you to enable or disable Search form."
+msgstr ""
+
+#: inc/admin/customizer-sections/header-main-menu.php:99
+msgid "Text Color Hover"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-main-menu.php:100
+msgid "Allows you to select color for text link when hover text link . "
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:11
+msgid "Sticky Menu"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:22
+msgid "Sticky On Scroll"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:23
+msgid "Allows you can show or hide sticky header menu on your site . "
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:39
+msgid "Select style"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:40
+msgid "Allows you can select sticky menu style for your header . "
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:46
+msgid "The same with main menu"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:47
+msgid "Custom"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:58
+msgid ""
+"Allows you can select a color make background color for header sticky menu . "
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:86
+#: inc/admin/customizer-sections/header-sub-menu.php:44
+#: inc/admin/customizer-sections/responsive.php:105
+msgid "Text Color"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:87
+msgid "Allows you can select a color make text color on header sticky menu . "
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:116
+#: inc/admin/customizer-sections/header-sub-menu.php:67
+#: inc/admin/customizer-sections/responsive.php:131
+msgid "Text Hover Color"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sticky-menu.php:117
+msgid ""
+"Allows you can select color for text link when hover text link on header "
+"sticky menu. "
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sub-menu.php:11
+msgid "Sub Menu"
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sub-menu.php:23
+msgid ""
+"Allows you can select a color make background color sub menu on header  . "
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sub-menu.php:45
+msgid "Allows you can select a color make text color sub menu on header. "
+msgstr ""
+
+#: inc/admin/customizer-sections/header-sub-menu.php:68
+msgid ""
+"Allows you can select color for text link when hover text link sub menu on "
+"header. "
+msgstr ""
+
+#: inc/admin/customizer-sections/header.php:13
+msgid "Header"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-bar.php:11
+msgid "Page Title"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-breadcrumb.php:12
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-breadcrumb.php:22
+msgid "Hide Breadcrumb"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-breadcrumb.php:23
+msgid "Allows you can HIDE breadcrumb on page title bar. "
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-breadcrumb.php:41
+msgid "Breadcrumb Icon"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-breadcrumb.php:53
+msgid "Breadcrumb Fonts"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-breadcrumb.php:54
+msgid "Allows you can select fonts property for breadcrumb. "
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-styling.php:22
+msgid "Background Image"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-styling.php:23
+msgid ""
+"You can upload image make to background image for page title on heading top. "
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-styling.php:42
+msgid ""
+"If you do not use background image, then can use background color for page "
+"title on heading top. "
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-styling.php:63
+msgid "Background Color Opacity"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-styling.php:84
+#: thim-education-pack/widgets/google-map/google-map.php:82
+msgid "Height"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-styling.php:85
+msgid ""
+"You can choose numbers to height for page title. Example: 100px, 30em, 48%, "
+"90vh etc."
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-styling.php:110
+msgid "Padding Top"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-styling.php:111
+msgid ""
+"You can choose padding top from page title to menu in header overlay layout. "
+"Example: 10px, 3em, 48%, 90vh etc."
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-styling.php:131
+msgid "Title Styling"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-styling.php:132
+msgid "Allows you can select fonts property for page title. "
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-styling.php:168
+msgid " Description Styling"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title-styling.php:169
+msgid "Allows you can select fonts property for page title description. "
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title.php:22
+msgid "Hidden Page Title"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title.php:23
+msgid "Allows you can hidden or show page title on heading top. "
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title.php:39
+msgid "Turn On/Off Parallax"
+msgstr ""
+
+#: inc/admin/customizer-sections/page-title.php:40
+msgid "Allows you can enable or disable parallax in page title."
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:11
+#: inc/admin/customizer-sections/responsive.php:21
+msgid "Responsive"
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:22
+msgid "Turn on to enable responsive on your site."
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:39
+msgid "Mobile Logo"
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:40
+msgid "Allows you to add, remove, change mobile logo on your site."
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:54
+msgid "Mobile Menu"
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:59
+msgid "Position"
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:60
+msgid ""
+"Allows you to select a mobile menu effect position for header on mobile."
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:81
+msgid ""
+"Allows you to select a color make background color for header on mobile. "
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:106
+msgid "Allows you to select a color make color of header text on mobile."
+msgstr ""
+
+#: inc/admin/customizer-sections/responsive.php:132
+msgid ""
+"Allows you to select color for text link when hover text link on mobile."
+msgstr ""
+
+#: inc/admin/customizer-sections/sidebars.php:11
+msgid "Sidebars"
+msgstr ""
+
+#: inc/admin/customizer-sections/sidebars.php:21
+msgid "Sidebar Title Fonts"
+msgstr ""
+
+#: inc/admin/customizer-sections/sidebars.php:22
+msgid "Allows you can select fonts property for sidebars title. "
+msgstr ""
+
+#: inc/admin/customizer-sections/sidebars.php:50
+msgid "Widget Margin Bottom"
+msgstr ""
+
+#: inc/admin/customizer-sections/sidebars.php:51
+msgid ""
+"Choose the number of words you want to space between widgets on sidebars. "
+"Example: 10px, 3em, 48%, 90vh etc."
+msgstr ""
+
+#: inc/custom-functions.php:145
+msgid "Attachment"
+msgstr ""
+
+#: inc/custom-functions.php:163
+msgid "Year"
+msgstr ""
+
+#: inc/custom-functions.php:165
+msgid "Month"
+msgstr ""
+
+#: inc/custom-functions.php:167
+msgid "Day"
+msgstr ""
+
+#: inc/custom-functions.php:220
+msgid "Search"
+msgstr ""
+
+#: inc/custom-functions.php:223
+msgid "Tag"
+msgstr ""
+
+#: inc/custom-functions.php:226
+msgid "Category"
+msgstr ""
+
+#: inc/custom-functions.php:229
+msgid "Page Not Found!"
+msgstr ""
+
+#: inc/custom-functions.php:256 inc/custom-functions.php:307
+#: inc/custom-functions.php:309 inc/custom-functions.php:311
+#: inc/custom-functions.php:315 inc/custom-functions.php:316
+#: inc/template-tags.php:560
+msgid "Archives"
+msgstr ""
+
+#: inc/custom-functions.php:260
+msgid "Page"
+msgstr ""
+
+#: inc/custom-functions.php:262 inc/learnpress-functions.php:120
+msgid "Search results for:"
+msgstr ""
+
+#: inc/custom-functions.php:264
+msgid "404 Page"
+msgstr ""
+
+#: inc/custom-functions.php:287 inc/learnpress-functions.php:90
+msgid "Home"
+msgstr ""
+
+#: inc/custom-functions.php:333
+msgid "-- Select Sidebar --"
+msgstr ""
+
+#: inc/data/demos.php:4
+msgid "Demo 01"
+msgstr ""
+
+#: inc/learnpress-functions.php:98 inc/learnpress-functions.php:111
+#: inc/learnpress-functions.php:117 inc/learnpress-functions.php:124
+msgid "All courses"
+msgstr ""
+
+#: inc/learnpress-functions.php:122
+msgid "Profile"
+msgstr ""
+
+#: inc/learnpress-functions.php:185
+msgid "Instructors"
+msgstr ""
+
+#: inc/learnpress-functions.php:309
+msgid "Teacher: "
+msgstr ""
+
+#: inc/learnpress-functions.php:386
+msgid "Related Courses"
+msgstr ""
+
+#: inc/learnpress-functions.php:426 inc/learnpress-functions.php:427
+#: learnpress/content-single-course.php:55
+msgid "Free"
+msgstr ""
+
+#: inc/learnpress-functions.php:443
+msgid "Students"
+msgstr ""
+
+#: inc/learnpress-functions.php:480 inc/learnpress-functions.php:508
+msgid "Media"
+msgstr ""
+
+#: inc/learnpress-functions.php:483
+msgid "Link or iframe media of Course."
+msgstr ""
+
+#: inc/learnpress-functions.php:486 inc/learnpress-functions.php:514
+msgid "Includes"
+msgstr ""
+
+#: inc/learnpress-functions.php:489
+msgid "Includes infomation of Courses"
+msgstr ""
+
+#: inc/learnpress-functions.php:492
+msgid "Info Button Box"
+msgstr ""
+
+#: inc/learnpress-functions.php:495
+msgid "Add text info button"
+msgstr ""
+
+#: inc/learnpress-functions.php:511 inc/learnpress-functions.php:517
+msgid "Add an embed link like video, PDF, slider..."
+msgstr ""
+
+#: inc/libs/class-thim-plugin.php:66 inc/libs/installer.php:714
+msgid "Something went wrong!"
+msgstr ""
+
+#: inc/libs/class-thim-plugin.php:386
+msgid "Active"
+msgstr ""
+
+#: inc/libs/class-thim-plugin.php:387
+msgid "Inactive"
+msgstr ""
+
+#: inc/libs/class-thim-plugin.php:388
+msgid "Not Installed"
+msgstr ""
+
+#: inc/libs/installer.php:372
+#, php-format
+msgid "%s Theme notice!"
+msgstr ""
+
+#: inc/libs/installer.php:374
+#, php-format
+msgid ""
+"Installed the theme successfully. <a href=\"%s\">Enable Thim Core to start "
+"now!</a>"
+msgstr ""
+
+#: inc/libs/installer.php:449 inc/libs/installer.php:601
+msgid "Thim Core Installer"
+msgstr ""
+
+#: inc/libs/installer.php:603
+#, php-format
+msgid ""
+"Welcome to the setup Core for %1$s Theme. Thank you for choosing the %1$s "
+"theme!"
+msgstr ""
+
+#: inc/libs/installer.php:618
+msgid "Your site have already installed Thim Core!"
+msgstr ""
+
+#: inc/libs/installer.php:620
+#, php-format
+msgid ""
+"<button data-href=\"%s\" class=\"thim-button-link button button-primary"
+"\">Return to Dashboard</button>"
+msgstr ""
+
+#: inc/libs/installer.php:642
+msgid "Install and activate"
+msgstr ""
+
+#: inc/libs/installer.php:666
+msgid "Installing Thim Core"
+msgstr ""
+
+#: inc/libs/installer.php:674
+msgid "Activating Thim Core"
+msgstr ""
+
+#: inc/libs/installer.php:676
+msgid "Activating..."
+msgstr ""
+
+#: inc/libs/installer.php:698
+msgid "Activating Thim Core successfully!"
+msgstr ""
+
+#: inc/libs/installer.php:700
+#, php-format
+msgid "You are redirecting to %s theme dashboard..."
+msgstr ""
+
+#: inc/libs/installer.php:712
+msgid "Activating Thim Core failed!"
+msgstr ""
+
+#: inc/libs/installer.php:716
+msgid "Activate again"
+msgstr ""
+
+#: inc/libs/installer.php:746
+msgid "Configuration Check"
+msgstr ""
+
+#: inc/libs/installer.php:752
+msgid "Server Info"
+msgstr ""
+
+#: inc/libs/installer.php:757
+msgid "PHP Version"
+msgstr ""
+
+#: inc/libs/installer.php:762
+#, php-format
+msgid "%1$s - We recommend a minimum PHP version of 5.6. See: %2$s"
+msgstr ""
+
+#: inc/libs/installer.php:762
+msgid "How to update your PHP version"
+msgstr ""
+
+#: inc/libs/installer.php:771
+msgid "PHP Memory Limit"
+msgstr ""
+
+#: inc/libs/installer.php:775
+#, php-format
+msgid ""
+"<strong>%s</strong> - We recommend setting memory to at least <strong>128MB</"
+"strong>. To learn how, see: <a href=\"%s\" target=\"_blank\">Increasing "
+"memory allocated to PHP.</a>"
+msgstr ""
+
+#: inc/libs/installer.php:784
+msgid "cURL version"
+msgstr ""
+
+#: inc/libs/installer.php:789
+msgid "Remote GET"
+msgstr ""
+
+#: inc/libs/installer.php:794
+msgid "wp_remote_get() failed. Please contact your hosting provider."
+msgstr ""
+
+#: inc/libs/installer.php:800
+msgid "Plugins directory"
+msgstr ""
+
+#: inc/libs/installer.php:808
+msgid "Plugins directory writable"
+msgstr ""
+
+#: inc/libs/installer.php:821
+#, php-format
+msgid ""
+"Please follow those instructions above to make sure your server is ready to "
+"use %s theme. If you need assistance, please get our support <a href=\"%s\" "
+"target=\"_blank\">here</a>."
+msgstr ""
+
+#: inc/libs/installer.php:845
+#, php-format
+msgid "Thim Core Installer &lsaquo; %s"
+msgstr ""
+
+#: inc/libs/installer.php:868
+msgid "&copy; ThimPress 2017. All rights reserved. Powered by WordPress."
+msgstr ""
+
+#: inc/template-tags.php:25
+#: thim-education-pack/widgets/list-post/tpl/default.php:111
+msgid "by "
+msgstr ""
+
+#: inc/template-tags.php:70
+msgid "Categories: "
+msgstr ""
+
+#: inc/template-tags.php:97
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:99
+#, php-format
+msgid "Tag: %1$s"
+msgstr ""
+
+#: inc/template-tags.php:170
+msgid "Share this:"
+msgstr ""
+
+#: inc/template-tags.php:360
+msgid "Name..."
+msgstr ""
+
+#: inc/template-tags.php:361
+msgid "Email..."
+msgstr ""
+
+#: inc/template-tags.php:371
+msgid "Submit"
+msgstr ""
+
+#: inc/template-tags.php:408
+msgid "Reply"
+msgstr ""
+
+#: inc/template-tags.php:413
+msgid "Edit"
+msgstr ""
+
+#: inc/template-tags.php:417
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-tags.php:520 inc/template-tags.php:522
+#: inc/template-tags.php:524 inc/template-tags.php:550
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: inc/template-tags.php:526
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: inc/template-tags.php:526
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/template-tags.php:528
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: inc/template-tags.php:528
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: inc/template-tags.php:530
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: inc/template-tags.php:530
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: inc/template-tags.php:532
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr ""
+
+#: inc/template-tags.php:534
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr ""
+
+#: inc/template-tags.php:536
+msgctxt "post format archive title"
+msgid "Images"
+msgstr ""
+
+#: inc/template-tags.php:538
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr ""
+
+#: inc/template-tags.php:540
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr ""
+
+#: inc/template-tags.php:542
+msgctxt "post format archive title"
+msgid "Links"
+msgstr ""
+
+#: inc/template-tags.php:544
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr ""
+
+#: inc/template-tags.php:546
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr ""
+
+#: inc/template-tags.php:548
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr ""
+
+#: inc/template-tags.php:554
+#, php-format
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: inc/template-tags.php:556
+msgid "Page Not Found"
+msgstr ""
+
+#: inc/template-tags.php:558
+msgid "Search Results Page"
+msgstr ""
+
+#: inc/theme-info.php:11 inc/theme-info.php:24
+msgid "Theme Info"
+msgstr ""
+
+#: inc/theme-info.php:19
+msgid "Notice: "
+msgstr ""
+
+#: inc/theme-info.php:20
+msgid "Please install and active Thim Core"
+msgstr ""
+
+#: inc/theme-info.php:21
+msgid "DOWNLOAD THIM CORE"
+msgstr ""
+
+#: inc/theme-info.php:28
+msgid "Theme demo"
+msgstr ""
+
+#: inc/theme-info.php:33
+msgid "Documentation"
+msgstr ""
+
+#: inc/theme-info.php:38
+msgid "Support"
+msgstr ""
+
+#: inc/theme-info.php:43
+msgid "Knowledge Base"
+msgstr ""
+
+#: learnpress/addons/course-review/course-review.php:15
+msgid "Reviews"
+msgstr ""
+
+#: learnpress/addons/course-review/course-review.php:16
+#, php-format
+msgid "Average rate: <span>%.1f</span>"
+msgstr ""
+
+#: learnpress/addons/course-review/course-review.php:24
+#: templates/features/preloading/custom-image.php:10
+msgid "Loading..."
+msgstr ""
+
+#: learnpress/addons/course-review/course-review.php:27
+msgid "No review to load"
+msgstr ""
+
+#: learnpress/addons/course-review/course-review.php:30
+msgid "Load More"
+msgstr ""
+
+#: learnpress/content-archive-course.php:29
+msgid "There are no available courses!"
+msgstr ""
+
+#: learnpress/content-archive-course.php:32
+msgid "Showing only one result"
+msgstr ""
+
+#: learnpress/content-archive-course.php:50
+#, php-format
+msgid "Showing last course of %s results"
+msgstr ""
+
+#: learnpress/content-archive-course.php:55
+#, php-format
+msgid "Showing %s-%s of %s results"
+msgstr ""
+
+#: learnpress/content-archive-course.php:103
+msgid "Search our courses"
+msgstr ""
+
+#: learnpress/content-archive-course.php:161
+msgid "No course found."
+msgstr ""
+
+#: learnpress/content-course.php:36
+msgid "Featured"
+msgstr ""
+
+#: learnpress/content-single-course.php:67
+msgid "30-Day Money-Back Guarantee"
+msgstr ""
+
+#: learnpress/loop/course/instructor.php:19
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: learnpress/profile/tabs/courses.php:21
+msgid "You haven't got any courses yet!"
+msgstr ""
+
+#: learnpress/profile/tabs/courses.php:27
+#: learnpress/profile/tabs/courses/own.php:25
+msgid "My Courses"
+msgstr ""
+
+#: learnpress/profile/tabs/courses.php:32
+#: learnpress/profile/tabs/courses/purchased.php:38
+msgid "Course"
+msgstr ""
+
+#: learnpress/profile/tabs/courses.php:33
+#: learnpress/profile/tabs/courses/purchased.php:39
+msgid "Date"
+msgstr ""
+
+#: learnpress/profile/tabs/courses.php:34
+#: learnpress/profile/tabs/courses/purchased.php:40
+msgid "Passing Grade"
+msgstr ""
+
+#: learnpress/profile/tabs/courses.php:35
+#: learnpress/profile/tabs/courses/purchased.php:41
+msgid "Progress"
+msgstr ""
+
+#: learnpress/profile/tabs/courses/own.php:37
+#: learnpress/profile/tabs/courses/purchased.php:82
+msgid "No courses!"
+msgstr ""
+
+#: learnpress/profile/tabs/courses/purchased.php:24
+msgid "Purchased Courses"
+msgstr ""
+
+#: learnpress/single-course/progress.php:37
+msgid "Items completed"
+msgstr ""
+
+#: learnpress/single-course/progress.php:41
+#, php-format
+msgid "%d of %d items"
+msgstr ""
+
+#: learnpress/single-course/progress.php:55
+msgid "Course results"
+msgstr ""
+
+#: learnpress/single-course/progress.php:82
+#, php-format
+msgid "Passing condition: %s%%"
+msgstr ""
+
+#: learnpress/single-course/thumbnail.php:59
+#: templates/template-parts/content-search.php:52
+#: templates/template-parts/content-search.php:83
+#: templates/template-parts/content-search.php:103
+#: templates/template-parts/content-search.php:121
+#: templates/template-parts/content-search.php:141
+#: templates/template-parts/content.php:52
+#: templates/template-parts/content.php:83
+#: templates/template-parts/content.php:101
+#: templates/template-parts/content.php:117
+#: templates/template-parts/content.php:137
+msgid "Read More"
+msgstr ""
+
+#: templates/page-title/page-title.php:152
+msgid "Our Team"
+msgstr ""
+
+#: templates/page-title/page-title.php:156
+#: thim-education-pack/widgets/testimonials/testimonials.php:26
+msgid "Testimonials"
+msgstr ""
+
+#: templates/template-parts/content-none.php:12
+msgid "Nothing Found"
+msgstr ""
+
+#: templates/template-parts/content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: templates/template-parts/content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: templates/template-parts/content-none.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: templates/template-parts/content-page.php:16
+#: templates/template-parts/content-single.php:41
+msgid "Pages:"
+msgstr ""
+
+#: templates/template-parts/content-single.php:61
+msgid "Previous "
+msgstr ""
+
+#: templates/template-parts/content-single.php:62
+msgid "Next"
+msgstr ""
+
+#: templates/template-parts/related-single.php:13
+msgid "Your Might Also Like"
+msgstr ""
+
+#: thim-education-pack/inc/admin/customizer-sections/general-features.php:12
+msgid "Open Graph Meta Tags"
+msgstr ""
+
+#: thim-education-pack/inc/admin/customizer-sections/general-features.php:13
+msgid ""
+"Turn on to enable open graph meta tags which is mainly used when sharing "
+"pages on social networking sites like Facebook."
+msgstr ""
+
+#: thim-education-pack/inc/admin/customizer-sections/general-features.php:29
+msgid "Google Theme"
+msgstr ""
+
+#: thim-education-pack/inc/admin/customizer-sections/general-features.php:30
+msgid "Turn on to set the toolbar color in Chrome for Android."
+msgstr ""
+
+#: thim-education-pack/inc/admin/customizer-sections/general-features.php:46
+msgid "Google Theme Color"
+msgstr ""
+
+#: thim-education-pack/widgets/brands/brands.php:15
+msgid "Thim: Brands"
+msgstr ""
+
+#: thim-education-pack/widgets/brands/brands.php:17
+msgid "Add brand item"
+msgstr ""
+
+#: thim-education-pack/widgets/brands/brands.php:25
+msgid "Brands"
+msgstr ""
+
+#: thim-education-pack/widgets/brands/brands.php:26
+#: thim-education-pack/widgets/slider/slider.php:26
+#: thim-education-pack/widgets/testimonials/testimonials.php:27
+msgid "Item"
+msgstr ""
+
+#: thim-education-pack/widgets/brands/brands.php:31
+#: thim-education-pack/widgets/single-image/single-image.php:26
+#: thim-education-pack/widgets/slider/slider.php:31
+#: thim-education-pack/widgets/testimonials/testimonials.php:32
+msgid "Select image from media library."
+msgstr ""
+
+#: thim-education-pack/widgets/brands/brands.php:35
+msgid "Title brand"
+msgstr ""
+
+#: thim-education-pack/widgets/brands/brands.php:40
+msgid "Link brand"
+msgstr ""
+
+#: thim-education-pack/widgets/feature/feature.php:15
+msgid "Thim: Feature"
+msgstr ""
+
+#: thim-education-pack/widgets/feature/feature.php:17
+msgid "Add Feature html"
+msgstr ""
+
+#: thim-education-pack/widgets/feature/feature.php:30
+msgid "Content"
+msgstr ""
+
+#: thim-education-pack/widgets/featured-posts/featured-posts.php:14
+msgid "Thim: Featured posts"
+msgstr ""
+
+#: thim-education-pack/widgets/featured-posts/featured-posts.php:16
+msgid "Display featured posts"
+msgstr ""
+
+#: thim-education-pack/widgets/featured-posts/featured-posts.php:46
+#: thim-education-pack/widgets/gallery/gallery.php:50
+#: thim-education-pack/widgets/heading/heading.php:33
+#: thim-education-pack/widgets/recent-posts/recent-posts.php:47
+#: thim-education-pack/widgets/social-link/social-link.php:166
+msgid "Title:"
+msgstr ""
+
+#: thim-education-pack/widgets/featured-posts/featured-posts.php:53
+#: thim-education-pack/widgets/recent-posts/recent-posts.php:54
+msgid "Number of recent posts to show:"
+msgstr ""
+
+#: thim-education-pack/widgets/featured-posts/featured-posts.php:60
+#: thim-education-pack/widgets/recent-posts/recent-posts.php:61
+msgid "Display post date:"
+msgstr ""
+
+#: thim-education-pack/widgets/gallery/gallery.php:14
+msgid "Thim: Gallery"
+msgstr ""
+
+#: thim-education-pack/widgets/gallery/gallery.php:16
+msgid "Display gallery"
+msgstr ""
+
+#: thim-education-pack/widgets/gallery/gallery.php:57
+msgid "Columns:"
+msgstr ""
+
+#: thim-education-pack/widgets/gallery/gallery.php:64
+msgid "Number limit:"
+msgstr ""
+
+#: thim-education-pack/widgets/gallery/gallery.php:71
+msgid "Image Size (full, large, medium, thumbnail, 80x80 )"
+msgstr ""
+
+#: thim-education-pack/widgets/gallery/gallery.php:78
+msgid "Display Style 2:"
+msgstr ""
+
+#: thim-education-pack/widgets/google-map/google-map.php:14
+msgid "Thim: Google Maps"
+msgstr ""
+
+#: thim-education-pack/widgets/google-map/google-map.php:16
+msgid "A Google Maps widget."
+msgstr ""
+
+#: thim-education-pack/widgets/google-map/google-map.php:28
+msgid "Get Map By"
+msgstr ""
+
+#: thim-education-pack/widgets/google-map/google-map.php:30
+msgid "Address"
+msgstr ""
+
+#: thim-education-pack/widgets/google-map/google-map.php:31
+#: thim-education-pack/widgets/google-map/google-map.php:41
+msgid "Coordinates"
+msgstr ""
+
+#: thim-education-pack/widgets/google-map/google-map.php:51
+msgid "Lat"
+msgstr ""
+
+#: thim-education-pack/widgets/google-map/google-map.php:56
+msgid "Lng"
+msgstr ""
+
+#: thim-education-pack/widgets/google-map/google-map.php:65
+msgid "Map center"
+msgstr ""
+
+#: thim-education-pack/widgets/google-map/google-map.php:66
+msgid ""
+"The name of a place, town, city, or even a country. Can be an exact address "
+"too."
+msgstr ""
+
+#: thim-education-pack/widgets/google-map/google-map.php:77
+msgid "Set map display options."
+msgstr ""
+
+#: thim-education-pack/widgets/google-map/google-map.php:86
+msgid "Zoom level"
+msgstr ""
+
+#: thim-education-pack/widgets/google-map/google-map.php:87
+msgid "A value from 0 (the world) to 21 (street level)."
+msgstr ""
+
+#: thim-education-pack/widgets/google-map/google-map.php:98
+msgid "Scroll to zoom"
+msgstr ""
+
+#: thim-education-pack/widgets/google-map/google-map.php:99
+msgid "Allow scrolling over the map to zoom in or out."
+msgstr ""
+
+#: thim-education-pack/widgets/google-map/google-map.php:105
+msgid "Draggable"
+msgstr ""
+
+#: thim-education-pack/widgets/google-map/google-map.php:106
+msgid "Allow dragging the map to move it around."
+msgstr ""
+
+#: thim-education-pack/widgets/google-map/google-map.php:112
+msgid "Markers"
+msgstr ""
+
+#: thim-education-pack/widgets/google-map/google-map.php:114
+msgid "Use markers to identify points of interest on the map."
+msgstr ""
+
+#: thim-education-pack/widgets/google-map/google-map.php:119
+msgid "Show marker at map center"
+msgstr ""
+
+#: thim-education-pack/widgets/google-map/google-map.php:124
+msgid "Marker Icon"
+msgstr ""
+
+#: thim-education-pack/widgets/google-map/google-map.php:125
+msgid "Replaces the default map marker with your own image."
+msgstr ""
+
+#: thim-education-pack/widgets/google-map/google-map.php:129
+msgid "Marker positions"
+msgstr ""
+
+#: thim-education-pack/widgets/google-map/google-map.php:130
+msgid "Marker"
+msgstr ""
+
+#: thim-education-pack/widgets/google-map/google-map.php:135
+msgid "Place"
+msgstr ""
+
+#: thim-education-pack/widgets/google-map/google-map.php:143
+msgid "Google map API"
+msgstr ""
+
+#: thim-education-pack/widgets/google-map/google-map.php:144
+msgid ""
+"Enter API google map of you or create new API: https://developers.google.com/"
+"maps/documentation/javascript/get-api-key"
+msgstr ""
+
+#: thim-education-pack/widgets/heading/heading.php:15
+msgid "Thim: Heading"
+msgstr ""
+
+#: thim-education-pack/widgets/heading/heading.php:17
+msgid "Display heading"
+msgstr ""
+
+#: thim-education-pack/widgets/heading/heading.php:40
+msgid "SubTitle:"
+msgstr ""
+
+#: thim-education-pack/widgets/heading/heading.php:46
+msgid "Text Align:"
+msgstr ""
+
+#: thim-education-pack/widgets/icon-box/icon-box.php:15
+msgid "Thim: Icon Box"
+msgstr ""
+
+#: thim-education-pack/widgets/icon-box/icon-box.php:17
+msgid "Add icon box"
+msgstr ""
+
+#: thim-education-pack/widgets/icon-box/icon-box.php:25
+msgid "Icon"
+msgstr ""
+
+#: thim-education-pack/widgets/icon-box/icon-box.php:35
+#: thim-education-pack/widgets/slider/slider.php:40
+#: thim-education-pack/widgets/testimonials/testimonials.php:46
+msgid "Description"
+msgstr ""
+
+#: thim-education-pack/widgets/list-link/list-link.php:15
+msgid "Thim: List Link"
+msgstr ""
+
+#: thim-education-pack/widgets/list-link/list-link.php:17
+msgid "Add link"
+msgstr ""
+
+#: thim-education-pack/widgets/list-link/list-link.php:42
+#: thim-education-pack/widgets/list-post/list-post.php:81
+msgid "Style"
+msgstr ""
+
+#: thim-education-pack/widgets/list-link/list-link.php:45
+#: thim-education-pack/widgets/list-post/list-post.php:83
+msgid "Style 1"
+msgstr ""
+
+#: thim-education-pack/widgets/list-link/list-link.php:46
+#: thim-education-pack/widgets/list-post/list-post.php:84
+msgid "Style 2"
+msgstr ""
+
+#: thim-education-pack/widgets/list-post/list-post.php:7
+msgid "Thim: Display Posts"
+msgstr ""
+
+#: thim-education-pack/widgets/list-post/list-post.php:9
+msgid "Show Post"
+msgstr ""
+
+#: thim-education-pack/widgets/list-post/list-post.php:18
+msgid "Select Categories"
+msgstr ""
+
+#: thim-education-pack/widgets/list-post/list-post.php:24
+#: thim-education-pack/widgets/single-image/single-image.php:31
+msgid "Image size"
+msgstr ""
+
+#: thim-education-pack/widgets/list-post/list-post.php:25
+#: thim-education-pack/widgets/single-image/single-image.php:32
+msgid ""
+"Enter image size. Example: \"thumbnail\", \"medium\", \"large\", \"full\" or "
+"other sizes defined by current theme. Alternatively enter image size in "
+"pixels: 200x100 (Width x Height). Leave empty to use \"thumbnail\" size."
+msgstr ""
+
+#: thim-education-pack/widgets/list-post/list-post.php:29
+msgid "Show Meta"
+msgstr ""
+
+#: thim-education-pack/widgets/list-post/list-post.php:32
+msgid "No"
+msgstr ""
+
+#: thim-education-pack/widgets/list-post/list-post.php:33
+msgid "Yes"
+msgstr ""
+
+#: thim-education-pack/widgets/list-post/list-post.php:38
+msgid "Number Post"
+msgstr ""
+
+#: thim-education-pack/widgets/list-post/list-post.php:43
+msgid "Columns"
+msgstr ""
+
+#: thim-education-pack/widgets/list-post/list-post.php:50
+msgid "6"
+msgstr ""
+
+#: thim-education-pack/widgets/list-post/list-post.php:55
+msgid "Order by"
+msgstr ""
+
+#: thim-education-pack/widgets/list-post/list-post.php:57
+msgid "Popular"
+msgstr ""
+
+#: thim-education-pack/widgets/list-post/list-post.php:58
+msgid "Recent"
+msgstr ""
+
+#: thim-education-pack/widgets/list-post/list-post.php:60
+msgid "Random"
+msgstr ""
+
+#: thim-education-pack/widgets/list-post/list-post.php:65
+msgid "Order"
+msgstr ""
+
+#: thim-education-pack/widgets/list-post/list-post.php:67
+msgid "ASC"
+msgstr ""
+
+#: thim-education-pack/widgets/list-post/list-post.php:68
+msgid "DESC"
+msgstr ""
+
+#: thim-education-pack/widgets/list-post/list-post.php:73
+msgid "Link All Post"
+msgstr ""
+
+#: thim-education-pack/widgets/list-post/list-post.php:77
+msgid "Text Link"
+msgstr ""
+
+#: thim-education-pack/widgets/list-post/list-post.php:85
+msgid "Style 3"
+msgstr ""
+
+#: thim-education-pack/widgets/recent-posts/recent-posts.php:15
+msgid "Thim: Recent posts"
+msgstr ""
+
+#: thim-education-pack/widgets/recent-posts/recent-posts.php:17
+msgid "Display recent posts"
+msgstr ""
+
+#: thim-education-pack/widgets/recent-posts/recent-posts.php:121
+#, php-format
+msgid "On %s"
+msgstr ""
+
+#: thim-education-pack/widgets/single-image/single-image.php:15
+msgid "Thim: Single Images"
+msgstr ""
+
+#: thim-education-pack/widgets/single-image/single-image.php:17
+msgid "Add heading text"
+msgstr ""
+
+#: thim-education-pack/widgets/single-image/single-image.php:36
+msgid "Image Link"
+msgstr ""
+
+#: thim-education-pack/widgets/single-image/single-image.php:37
+msgid "Enter URL if you want this image to have a link."
+msgstr ""
+
+#: thim-education-pack/widgets/single-image/single-image.php:41
+msgid "Link Target"
+msgstr ""
+
+#: thim-education-pack/widgets/single-image/single-image.php:43
+msgid "Same window"
+msgstr ""
+
+#: thim-education-pack/widgets/single-image/single-image.php:44
+msgid "New window"
+msgstr ""
+
+#: thim-education-pack/widgets/single-image/single-image.php:49
+msgid "Image alignment"
+msgstr ""
+
+#: thim-education-pack/widgets/single-image/single-image.php:52
+msgid "Align Left"
+msgstr ""
+
+#: thim-education-pack/widgets/single-image/single-image.php:53
+msgid "Align Right"
+msgstr ""
+
+#: thim-education-pack/widgets/single-image/single-image.php:54
+msgid "Align Center"
+msgstr ""
+
+#: thim-education-pack/widgets/slider/slider.php:15
+msgid "Thim: Slider"
+msgstr ""
+
+#: thim-education-pack/widgets/slider/slider.php:17
+msgid "Add slider"
+msgstr ""
+
+#: thim-education-pack/widgets/slider/slider.php:25
+msgid "Slider"
+msgstr ""
+
+#: thim-education-pack/widgets/slider/slider.php:45
+msgid "Button"
+msgstr ""
+
+#: thim-education-pack/widgets/slider/slider.php:50
+msgid "Link button"
+msgstr ""
+
+#: thim-education-pack/widgets/social-link/social-link.php:7
+msgid "Thim: Social Link"
+msgstr ""
+
+#: thim-education-pack/widgets/social-link/social-link.php:9
+msgid "Display a list of social links"
+msgstr ""
+
+#: thim-education-pack/widgets/social-link/social-link.php:41
+msgid "Skype"
+msgstr ""
+
+#: thim-education-pack/widgets/social-link/social-link.php:59
+msgid "Tumblr"
+msgstr ""
+
+#: thim-education-pack/widgets/social-link/social-link.php:65
+msgid "Linkedin"
+msgstr ""
+
+#: thim-education-pack/widgets/social-link/social-link.php:71
+msgid "RSS"
+msgstr ""
+
+#: thim-education-pack/widgets/social-link/social-link.php:77
+msgid "Instagram"
+msgstr ""
+
+#: thim-education-pack/widgets/social-link/social-link.php:83
+msgid "Youtube"
+msgstr ""
+
+#: thim-education-pack/widgets/social-link/social-link.php:173
+msgid "Facebook URL:"
+msgstr ""
+
+#: thim-education-pack/widgets/social-link/social-link.php:179
+msgid "Twitter URL:"
+msgstr ""
+
+#: thim-education-pack/widgets/social-link/social-link.php:185
+msgid "Skype URL:"
+msgstr ""
+
+#: thim-education-pack/widgets/social-link/social-link.php:192
+msgid "Pinterest URL:"
+msgstr ""
+
+#: thim-education-pack/widgets/social-link/social-link.php:199
+msgid "Google Plus URL:"
+msgstr ""
+
+#: thim-education-pack/widgets/social-link/social-link.php:206
+msgid "Tumblr URL:"
+msgstr ""
+
+#: thim-education-pack/widgets/social-link/social-link.php:213
+msgid "Linkedin URL:"
+msgstr ""
+
+#: thim-education-pack/widgets/social-link/social-link.php:220
+msgid "RSS URL:"
+msgstr ""
+
+#: thim-education-pack/widgets/social-link/social-link.php:227
+msgid "Instagram URL:"
+msgstr ""
+
+#: thim-education-pack/widgets/social-link/social-link.php:234
+msgid "Youtube URL:"
+msgstr ""
+
+#: thim-education-pack/widgets/testimonials/testimonials.php:16
+msgid "Thim: Testimonials"
+msgstr ""
+
+#: thim-education-pack/widgets/testimonials/testimonials.php:18
+msgid "Add testimonials"
+msgstr ""
+
+#: thim-education-pack/widgets/testimonials/testimonials.php:36
+msgid "Name"
+msgstr ""
+
+#: thim-education-pack/widgets/testimonials/testimonials.php:41
+msgid "Jobs"
+msgstr ""
+
+#: thim-education-pack/widgets/widgets-attributes.php:44
+msgid "Extra Class"
+msgstr ""
+
+#: thim-education-pack/widgets/widgets.php:42
+msgid "Education Pack Widgets"
+msgstr ""
+
+#: thim-education-pack/widgets/widgets.php:54
+msgid "Parallax"
+msgstr ""
+
+#: thim-education-pack/widgets/widgets.php:57
+msgid "If enabled, the background image will have a parallax effect."
+msgstr ""

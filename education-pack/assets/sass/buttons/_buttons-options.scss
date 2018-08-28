@@ -1,0 +1,20 @@
+/*
+ * Button style from customizer */
+
+input[type="submit"],
+.button,
+.submit {
+  background-color: $thim_body_primary_color;
+  &:hover {
+    background-color: darken($thim_body_primary_color, 10%);
+  }
+}
+
+.mc4wp-form {
+  input[type=submit] {
+    background-color: $thim_body_primary_color;
+    &:hover {
+      background-color: darken($thim_body_primary_color, 10%);
+    }
+  }
+}

@@ -1,0 +1,15 @@
+/* Print Style Sheet */
+@media print {
+
+	#comments,
+	#colophon .footer,
+	.menu-mobile-effect.navbar-toggle,
+	.related-archive,
+	.thim-about-author,
+	.nav-single,
+	#back-to-top,
+	#secondary,
+	.page-title {
+		display: none !important;
+	}
+}

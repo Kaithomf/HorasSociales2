@@ -1,0 +1,7 @@
+#back-to-top {
+	background-color: $thim_body_primary_color;
+	color: #FFF;
+	&:hover{
+		background-color: darken($thim_body_primary_color, 10%);
+	}
+}

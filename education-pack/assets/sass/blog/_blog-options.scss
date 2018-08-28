@@ -1,0 +1,183 @@
+/*
+ * Style for blog from customizer */
+
+.site-content {
+	.blog-content article .content-inner .entry-content .readmore a {
+		&:before {
+			border-color: $thim_body_primary_color;
+		}
+	}
+
+	.page-content {
+		.tags-links {
+			a {
+				color: $thim_font_title_color;
+				&:hover {
+					color: $thim_body_primary_color;
+				}
+			}
+		}
+		//navigation
+		.nav-single {
+			h3 {
+				a {
+					&:hover {
+						color: $thim_body_primary_color;
+					}
+				}
+			}
+		}
+		.thim-about-author {
+			a.name {
+				color: $thim_font_title_color;
+				&:hover {
+					color: $thim_body_primary_color;
+				}
+			}
+			.role {
+				font-family: $thim_font_title_font_family;
+			}
+		}
+		.related-archive {
+			ul {
+				li {
+					.rel-post-text .entry-title a {
+						color: $thim_font_title_color;
+						&:hover {
+							color: $thim_body_primary_color;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.blog-content,
+	.page-content {
+		article {
+			&.sticky {
+				.entry-title {
+					a {
+						color: $thim_body_primary_color;
+						&:hover {
+							color: $thim_font_title_color;
+						}
+					}
+				}
+			}
+
+			.entry-title {
+				a {
+					color: $thim_font_title_color;
+					&:hover {
+						color: $thim_body_primary_color;
+					}
+				}
+			}
+			.entry-meta {
+				a {
+					color: $thim_font_body_color;
+					&:hover {
+						color: $thim_body_primary_color;
+					}
+				}
+			}
+
+			// post format
+			&.format-chat {
+				.group-chat {
+					li {
+						color: $thim_font_title_color;
+						.messenger {
+							color: $thim_font_body_color;
+						}
+					}
+				}
+			}
+			&.format-quote blockquote {
+				border-left-color: lighten($thim_body_primary_color, 20%);
+				a {
+					color: $thim_body_primary_color;
+				}
+			}
+
+		}
+	}
+}
+
+//Pagination
+.loop-pagination {
+	li {
+		a , span {
+			font-family: $thim_font_title_font_family;
+		}
+	}
+}
+
+// Comments
+#comments {
+	.comment-list {
+		li {
+			.content-comment {
+				.author {
+					font-family: $thim_font_title_font_family;
+					.comment-extra-info {
+						color: $thim_font_body_color;
+					}
+					.author-name,
+					.author-name a {
+						color: $thim_font_title_color;
+						&:hover {
+							color: $thim_body_primary_color;
+						}
+					}
+					span {
+						.comment-reply-link {
+							color: $thim_font_title_color;
+							&:hover {
+								color: $thim_body_primary_color;
+							}
+						}
+						.comment-edit-link {
+							color: $thim_font_title_color;
+							&:hover {
+								color: $thim_body_primary_color;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.comment-form {
+		.logged-in-as a {
+			color: $thim_font_title_color;
+			&:hover {
+				color: $thim_body_primary_color;
+			}
+		}
+
+		textarea,
+		input {
+			border: 1px solid $border-color;
+			&:focus {
+				border: 1px solid $thim_body_primary_color;
+			}
+		}
+		> p {
+			input.submit {
+				font-family: $thim_font_title_font_family;
+				&:focus, &:hover {
+					border-color: $thim_body_primary_color;
+					color: $thim_body_primary_color;
+				}
+			}
+		}
+	}
+}
+
+.entry-meta > span {
+	&:after {
+		color: $thim_font_body_color;
+	}
+}

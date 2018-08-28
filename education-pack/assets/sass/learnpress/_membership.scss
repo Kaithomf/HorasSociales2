@@ -1,0 +1,258 @@
+/* Table
+-------------------------------------------------------------------*/
+
+#shaon-pricing-table-plus ul,
+#shaon-pricing-table-plus h3,
+#shaon-pricing-table-plus h4,
+#shaon-pricing-table-plus li {
+	list-style: none;
+}
+
+.minimal {
+	margin: 20px auto 0;
+}
+
+.minimal .plan {
+	width: 25%;
+	float: left;
+	margin-left: -1px;
+	margin-bottom: 20px;
+}
+
+.minimal .plan:first-child {
+	margin-left: 0
+}
+
+.smooth .minimal .content-highlight {
+	padding: 0 15px;
+}
+
+.smooth .minimal {
+	margin: 20px -15px 0;
+}
+
+.minimal .plan h3 {
+	text-align: center;
+	line-height: 45px;
+	margin: 0;
+}
+
+.minmal .plan h3 {
+	background: #5e923c
+}
+
+.minimal .plan li {
+	line-height: 3.8em;
+}
+
+.select, .plan li {
+	text-align: center
+}
+
+.minimal .select {
+	border: 1px solid #ddd;
+}
+
+.minimal .highlight.featured .select {
+	padding-bottom: 20px;
+}
+
+.gray .minimal .features ul {
+	border-bottom: none;
+}
+
+.minimal .features ul {
+	border: 1px solid #ddd;
+}
+
+.minimal .features ul li {
+	border-bottom: 1px solid #ddd;
+}
+
+.minimal .features ul li:last-child {
+	border-bottom: none;
+}
+
+/* specialized
+-------------------------------------------------------------------*/
+
+.interval {
+	font-size: 11px;
+}
+
+.highlight .amount, .interval {
+	display: block;
+	text-align: center
+}
+
+.highlight .amount {
+	font-size: 40px;
+}
+
+.highlight .amount span {
+	vertical-align: super;
+	font-size: 20px
+}
+
+/* Top
+-------------------------------------------------------------------*/
+.minimal .p1 h3 {
+	border: 1px solid #ddd;
+	margin: 0;
+}
+
+.minimal .plan h4 {
+	padding: 10px 0;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	margin: 0;
+	font-weight: 600 !important;
+	color: #333;
+}
+
+.minimal .pt-button {
+	color: #FFFFFF;
+	display: block;
+	line-height: 40px;
+	margin: 20px auto;
+	width: 131px;
+	background: #181818;
+	text-transform: uppercase;
+}
+
+.minimal .pt-button:hover, .minimal .pt-button:active, .minimal .highlight.featured .pt-button {
+	background: #fe4444;
+
+}
+
+/* Highlight
+-------------------------------------------------------------------*/
+.minimal .highlight h3 {
+	padding: 10px 0;
+	color: #fe4444;
+}
+
+.minimal .highlight.featured h3 {
+	margin-top: -20px;
+	padding: 20px 0;
+	background: #fe4444;
+	color: #fff !important;
+}
+
+.minimal .highlight {
+	position: relative;
+}
+
+.green .minimal .highlight.featured h3 {
+	margin-top: 0;
+	padding: 10px 0;
+	background: #fff;
+	color: #fe4444;
+}
+
+.green .minimal .highlight.featured {
+	z-index: 9;
+}
+
+.green .minimal .highlight.featured .features ul,
+.green .minimal .highlight.featured h4,
+.green .minimal .highlight.featured h3 {
+	border-color: #fe4444;
+}
+
+.green .minimal .highlight.featured h3 {
+	border-bottom-color: #ddd !important;
+}
+
+.green .minimal .highlight.featured .features ul {
+	border-top-color: #ddd !important;
+}
+
+@media (max-width: 800px) {
+	.minimal .plan {
+		width: 45%;
+		float: left;
+		margin-left: 20px;
+	}
+
+	.minimal .plan:nth-child(2n) {
+		margin-left: 20px;
+	}
+
+	.minimal .plan:nth-child(2n+1) {
+		margin-left: 0;
+	}
+	.smooth .minimal .content-highlight {
+		padding: 0
+	}
+	.smooth .minimal {
+		margin: 20px auto 0;
+	}
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	.minimal .plan {
+		width: 100%;
+		float: none;
+		margin-left: 0 !important;
+	}
+}
+
+#shaon-pricing-table-plus {
+	.minimal {
+		.features {
+			ul {
+				margin: 0;
+			}
+		}
+	}
+	.plan {
+		&.p2 {
+			.icon {
+				i {
+					&:before {
+						content: "";
+					}
+				}
+			}
+		}
+
+		&.p3 {
+			.icon {
+				i {
+					&:before {
+						content: "";
+					}
+				}
+			}
+		}
+	}
+}
+
+.courses-media-slider #learn-press-pmpro-notice.purchase-course a {
+	padding: 0px 26px;
+	display: inline-block;
+	float: left;
+	line-height: 37px;
+	border-radius: 4px;
+	font-size: 16px;
+	font-family: lato;
+	text-transform: capitalize;
+	font-weight: 500;
+	height: 39px;
+}
+
+.courses-media-slider #learn-press-pmpro-notice {
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.courses-media-slider article .meta_course .heading_info ul li {
+	margin-bottom: 20px;
+}
+
+.courses-media-slider article .meta_course .heading_info ul li .purchase-course .btn.purchase-button {
+	text-transform: capitalize;
+}

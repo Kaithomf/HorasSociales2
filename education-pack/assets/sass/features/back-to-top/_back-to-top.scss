@@ -1,0 +1,16 @@
+#back-to-top {
+	width: 45px;
+	height: 45px;
+	position: fixed;
+	bottom: 15px;
+	right: 15px;
+	cursor: pointer;
+	@include transition(all 0.3s);
+	text-align: center;
+	line-height: 45px;
+	@include transform(translateY(100px));
+	z-index: 999;
+	&.scrolldown {
+		@include transform(translateY(0px));
+	}
+}

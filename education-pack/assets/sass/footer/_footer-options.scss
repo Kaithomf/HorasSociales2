@@ -1,0 +1,59 @@
+/*
+ * Style Footer - use variables from customize
+ */
+footer#colophon {
+	background-color: $thim_footer_background_color;
+	color: $thim_footer_color_text;
+	a {
+		color: $thim_footer_color_link;
+		&:hover {
+			color: $thim_footer_color_hover;
+		}
+	}
+	h1, h2, h3, h4, h5, h6 {
+		color: $thim_footer_color_title;
+	}
+	.copyright-area {
+		background-color: $thim_copyright_background_color;
+		.copyright-content {
+			color: $thim_font_copyright_color_text;
+			a {
+				color: $thim_font_copyright_color_link;
+				&:hover {
+					color: $thim_font_copyright_color_hover;
+				}
+			}
+		}
+		.copyright-text {
+			font-family: $thim_copyright_fonts_font_family;
+		}
+	}
+	.widget-title {
+		&:before {
+			background: $thim_body_primary_color;
+		}
+	}
+
+	.thim-tweets {
+		.tweet-item {
+			font-family: $thim_copyright_fonts_font_family;
+			a {
+				color: $thim_body_primary_color;
+			}
+		}
+	}
+	#ctf {
+		font-family: $thim_copyright_fonts_font_family;
+	}
+	.footer-sidebars {
+		.list-link {
+			li {
+				a {
+					&:hover {
+						color: $thim_body_primary_color;
+					}
+				}
+			}
+		}
+	}
+}

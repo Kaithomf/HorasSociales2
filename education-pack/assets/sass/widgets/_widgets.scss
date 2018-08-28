@@ -1,0 +1,846 @@
+.header-info {
+	position: relative;
+	padding-left: 38px;
+	list-style: none;
+	float: left;
+	margin-right: 50px;
+	&:last-child {
+		margin: 0;
+	}
+	&:before {
+		content: "\f0e0";
+		font-family: FontAwesome;
+		width: 30px;
+		height: 30px;
+		line-height: 28px;
+		background: #FFFFFF;
+		text-align: center;
+		border-radius: 50%;
+		display: inline-block;
+		float: left;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	&.phone {
+		&:before {
+			content: "\f095";
+		}
+	}
+	.info-1 {
+		font-size: 14px;
+		color: #999999;
+		letter-spacing: 0px;
+		font-style: italic;
+		margin: 0;
+		line-height: 1;
+	}
+	.info-2 {
+		font-family: Montserrat;
+		font-size: 16px;
+		color: #333333;
+		letter-spacing: 0px;
+		margin: 0;
+		a {
+			color: #333333;
+		}
+	}
+}
+
+// Thim Recent Posts
+.widget_thim_recent_posts {
+	ul {
+		margin: 0px;
+		li {
+			margin-bottom: 40px;
+			display: inline-block;
+			padding: 0;
+			position: relative;
+			padding-left: 130px;
+			min-height: 100px;
+			&:last-child {
+				margin: 0;
+			}
+			&.no-thumbnail {
+				padding: 0;
+			}
+			.post_thumbnail {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100px;
+				overflow: hidden;
+				img {
+					@include transition(all 1s);
+				}
+				&:hover {
+					img {
+						transform: scale(1.1);
+						-webkit-transform: scale(1.1);
+						-moz-transform: scale(1.1);
+						-ms-transform: scale(1.1);
+						-o-transform: scale(1.1);
+					}
+				}
+			}
+			.title {
+				margin: 0;
+				line-height: 24px;
+				font-size: 14px;
+				a {
+					font-weight: bold;
+					font-size: 14px;
+					text-transform: none;
+					color: #333333;
+					line-height: 24px;
+					@include transition(all 0.5s);
+				}
+			}
+			.time {
+				margin-top: 20px;
+				font-size: 12px;
+				font-style: italic;
+				color: #666666;
+				font-weight: bold;
+			}
+		}
+	}
+}
+
+// Thim Featured Posts
+.widget_thim_featured_posts {
+	ul {
+		margin: 0px;
+		li {
+			margin-bottom: 30px;
+			display: inline-block;
+			padding: 0;
+			position: relative;
+			padding-left: 90px;
+			min-height: 70px;
+			width: 100%;
+			&:last-child {
+				margin: 0;
+			}
+			&.no-thumbnail {
+				padding: 0;
+			}
+			.post_thumbnail {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 70px;
+				overflow: hidden;
+				img {
+					@include transition(all 1s);
+					&:hover {
+						transform: scale(1.1);
+						-webkit-transform: scale(1.1);
+						-moz-transform: scale(1.1);
+						-ms-transform: scale(1.1);
+						-o-transform: scale(1.1);
+					}
+				}
+			}
+			.title {
+				margin: 0;
+				line-height: 18px;
+				font-size: 14px;
+				a {
+					font-weight: bold;
+					font-size: 14px;
+					text-transform: none;
+					color: #ffffff;
+					line-height: 18px;
+					@include transition(all 0.5s);
+				}
+			}
+			.time {
+				margin-top: 11px;
+				font-size: 13px;
+				font-style: italic;
+				color: #dddddd;
+				font-weight: normal;
+			}
+		}
+	}
+}
+
+// Thim List Link
+.list-link {
+	margin: 0px;
+	list-style: none;
+	overflow: hidden;
+	li {
+		margin-bottom: 15px;
+		line-height: 28px;
+		display: inline-block;
+		width: 100%;
+		float: left;
+		&:last-child {
+			margin-bottom: 0;
+		}
+		a {
+			line-height: 28px;
+			font-weight: bold;
+			font-size: 18px;
+			color: #666666;
+			display: inline-block;
+			width: 100%;
+			float: left;
+			&:before {
+				content: "\f0da";
+				font-family: "FontAwesome";
+				margin-right: 20px;
+				font-weight: normal;
+				font-size: 14px;
+			}
+		}
+	}
+	&.style-2 {
+		li {
+			a {
+				font-size: 16px;
+				font-weight: normal;
+				&:before {
+					color: #333333;
+					margin-right: 9px;
+				}
+			}
+		}
+	}
+}
+
+// Thim Twitter
+.thim-tweets {
+	.tweet-item {
+		margin-bottom: 37px;
+		position: relative;
+		padding-left: 37px;
+		&:before {
+			content: "\f099";
+			font-family: "FontAwesome";
+			position: absolute;
+			top: 0;
+			left: 0;
+			font-size: 20px;
+			color: #68ADEF;
+		}
+		&:last-child {
+			margin: 0;
+		}
+		.content {
+			line-height: 26px;
+		}
+	}
+}
+#ctf {
+	.ctf-item {
+		padding: 0;
+		margin-bottom: 35px;
+		border: none;
+		position: relative;
+		top: -7px;
+		&:last-child {
+			margin: 0;
+		}
+		.ctf-author-box {
+			clear: none;
+			position: relative;
+			top: 7px;
+		}
+		.ctf-tweet-content {
+			clear: none;
+			float: right;
+			width: calc(100% - 45px);
+			width: -webkit-calc(100% - 45px);
+			width: -moz-calc(100% - 45px);
+		}
+	}
+}
+
+//Thim Gallery
+.widget_thim_gallery {
+	.row {
+		margin-right: -7.5px;
+		margin-left: -7.5px;
+		.item {
+			margin-bottom: 15px;
+			padding: 0px 7.5px;
+			position: relative;
+			overflow: hidden;
+			&:after {
+				content: "";
+				position: absolute;
+				top: 0;
+				left: 7.5px;
+				right: 7.5px;
+				bottom: 0;
+				opacity: 0;
+				visibility: hidden;
+				background: rgba(0, 0, 0, .5);
+				pointer-events: none;
+				cursor: pointer;
+				@include transition(all .5s);
+			}
+			&:hover {
+				&:after {
+					opacity: 1;
+					visibility: visible;
+				}
+			}
+		}
+		.fancybox {
+			overflow: hidden;
+			position: relative;
+			width: 100%;
+			float: left;
+			img {
+				width: 100%;
+				height: auto;
+				@include transition(all 1s);
+			}
+		}
+	}
+	.style-2 {
+		.row {
+			margin: 0;
+			.item {
+				padding: 0;
+				margin: 0;
+				&:after {
+					left: 0;
+					right: 0;
+					opacity: 1;
+					visibility: visible;
+				}
+				&:hover {
+					&:after {
+						opacity: 0;
+						visibility: hidden;
+					}
+				}
+			}
+			.fancybox {
+				margin: 0;
+				padding: 0;
+			}
+		}
+	}
+}
+
+//Thim Heading
+.thim-heading {
+	position: relative;
+	padding-bottom: 19px;
+	margin-bottom: 49px;
+	&:before {
+		content: '';
+		border-top: 1px solid #dddddd;
+		width: 170px;
+		height: 1px;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+	&:after {
+		content: '';
+		height: 4px;
+		width: 50px;
+		position: absolute;
+		bottom: 1px;
+		left: 0;
+	}
+	h3 {
+		font-size: 24px;
+		line-height: 1;
+		text-transform: uppercase;
+		margin: 0px 0px 9px;
+	}
+	.subtitle {
+		color: #999999;
+		font-style: italic;
+		font-size: 14px;
+		line-height: 19px;
+	}
+	&.heading-center {
+		text-align: center;
+		&:before {
+			left: 50%;
+			margin-left: -85px;
+		}
+		&:after {
+			left: 50%;
+			margin-left: -25px;
+		}
+	}
+	&.heading-right {
+		text-align: right;
+		&:before {
+			left: auto;
+			right: 0;
+		}
+		&:after {
+			left: auto;
+			right: 0;
+		}
+	}
+}
+
+//Thim Slider
+.thim-slider {
+	position: relative;
+	ul {
+		margin: 0;
+		list-style: none;
+	}
+	.slides {
+		.item-link {
+			position: relative;
+			.slider-content {
+				position: absolute;
+				top: 180px;
+				left: 0;
+				width: 100%;
+				.slider-content-inner {
+					width: 500px;
+				}
+				.title {
+					font-size: 36px;
+					color: #FFFFFF;
+					line-height: 48px;
+					margin: 0px 0px 31px;
+				}
+				.description {
+					font-size: 16px;
+					color: #FFFFFF;
+					line-height: 28px;
+					margin: 0px 0px 32px;
+				}
+				.slider-button {
+					padding: 0px 50px;
+					line-height: 50px;
+					font-size: 13px;
+					color: #FFFFFF;
+					display: inline-block;
+					text-transform: uppercase;
+					font-weight: bold;
+					&:hover {
+						background: #ffffff;
+						color: #222222;
+					}
+				}
+			}
+		}
+	}
+	.flex-direction-nav {
+		margin: 0;
+		a {
+			position: absolute;
+			z-index: 9;
+			top: 50%;
+			cursor: pointer;
+			width: 40px;
+			margin: 0;
+			height: 40px;
+			background-color: #fff;
+			text-align: center;
+			overflow: hidden;
+			margin-top: -20px;
+			font-size: 0;
+			@include transition(all .3s ease-in-out);
+			&:before {
+				color: $white;
+			}
+			&:hover {
+				background: #222222;
+			}
+		}
+		.flex-prev {
+			left: -40px;
+			opacity: 0;
+			&:before {
+				content: "\f104";
+				font-family: "FontAwesome";
+				font-size: 22px;
+				line-height: 40px;
+				display: inline-block;
+			}
+		}
+		.flex-next {
+			right: -40px;
+			opacity: 0;
+			&:before {
+				content: "\f105";
+				font-family: "FontAwesome";
+				font-size: 22px;
+				line-height: 40px;
+				display: inline-block;
+			}
+		}
+	}
+	&:hover {
+		.flex-direction-nav {
+			.flex-prev {
+				opacity: 0.8;
+				left: 5px;
+			}
+			.flex-next {
+				opacity: 0.8;
+				right: 5px;
+			}
+		}
+	}
+}
+
+//Thim Icon Box
+.thim-icon-box {
+	text-align: center;
+	.icon {
+		margin-bottom: 19px;
+		span {
+			font-size: 40px;
+			color: #3498DB;
+		}
+	}
+	h3 {
+		font-size: 16px;
+		color: #333333;
+		line-height: 19px;
+		margin: 0;
+		text-transform: uppercase;
+	}
+	.description {
+		font-size: 16px;
+		line-height: 28px;
+		margin-top: 5px;
+	}
+}
+
+// Thim Feature
+.thim-feature {
+	.title {
+		font-size: 22px;
+		color: #333333;
+		line-height: 27px;
+		padding-left: 19px;
+		margin: 0px 0px 42px;
+		position: relative;
+		&:before {
+			content: '';
+			width: 3px;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+	}
+	.description {
+		font-size: 16px;
+		line-height: 28px;
+	}
+}
+
+//Thim List Post
+.thim-list-posts {
+	position: relative;
+	.link_read_more {
+		position: absolute;
+		top: -68px;
+		right: 0;
+		a {
+			font-size: 13px;
+			display: inline-block;
+			position: relative;
+			font-weight: bold;
+			background: #ffffff;
+			padding-left: 15px;
+			&:after {
+				content: "\f105";
+				font-family: FontAwesome;
+				margin-left: 8px;
+				font-weight: normal;
+			}
+			&:hover {
+				color: #222222;
+			}
+		}
+	}
+	.item-post {
+		margin-bottom: 40px;
+		padding-bottom: 36px;
+		border-bottom: 1px solid #ddd;
+		.article-image {
+			margin-bottom: 21px;
+			overflow: hidden;
+			img {
+				@include transition(all 1s);
+				&:hover {
+					transform: scale(1.1);
+					-webkit-transform: scale(1.1);
+					-moz-transform: scale(1.1);
+					-ms-transform: scale(1.1);
+					-o-transform: scale(1.1);
+				}
+			}
+
+			.img-post-mobile {
+				display: none;
+			}
+		}
+		.article-title-wrapper {
+			h5 {
+				font-size: 22px;
+				line-height: 34px;
+				margin: 0px 0px 16px;
+				a {
+					color: #333333;
+				}
+			}
+			.article-meta {
+				font-size: 12px;
+				color: #666666;
+				font-style: italic;
+				margin-bottom: 0px;
+				line-height: 17px;
+				.entry-date {
+					font-weight: bold;
+				}
+				>span {
+					display: inline-block;
+					margin-right: 5px;
+					a {
+						font-weight: bold;
+						text-transform: capitalize;
+						font-style: italic;
+						color: #666;
+					}
+				}
+			}
+		}
+	}
+	&.style-2 {
+		.item-post {
+			position: relative;
+			padding-bottom: 0;
+			border: none;
+			&:before {
+				content:'';
+				width: 100%;
+				height: 120px;
+				background-image: linear-gradient(-180deg, rgba(17,17,17,0.00) 0%, rgba(0,0,0,0.52) 47%, #000000 99%);
+				position: absolute;
+				left: 0;
+				bottom: 0;
+				z-index: 1;
+				pointer-events: none;
+			}
+			.article-image {
+				margin: 0;
+			}
+			.article-title-wrapper {
+				position: absolute;
+				left: 0;
+				bottom: 0;
+				width: 100%;
+				padding: 0px 20px 20px;
+				z-index: 10;
+				h5 {
+					margin: 0;
+					a {
+						color: #ffffff;
+					}
+				}
+				.article-meta {
+					color: #ffffff;
+					>span {
+						a {
+							color: #ffffff;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	&.style-3 {
+		.item-post {
+			position: relative;
+			padding-left: 129px;
+			min-height: 100px;
+			padding-bottom: 0;
+			border: none;
+			.article-image {
+				position: absolute;
+				top: 0;
+				left: 0;
+				margin: 0;
+			}
+			.article-title-wrapper {
+				float: left;
+				width: 100%;
+				h5 {
+					font-size: 14px;
+					line-height: 24px;
+					margin: 0px 0px 16px;
+					position: relative;
+					top: -5px;
+					float: left;
+					width: 100%;
+					a {
+						float: left;
+						width: 100%;
+					}
+				}
+				.article-meta {
+					float: left;
+					width: 100%;
+					.author {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+}
+
+//Thim Testimonials
+.thim-testimonials {
+	overflow: hidden;
+	.item-link {
+		padding-left: 300px;
+		position: relative;
+		min-height: 370px;
+		.item-img {
+			position: absolute;
+			width: 270px;
+			top: 0;
+			left: 0;
+		}
+		.item-content {
+			padding-top: 40px;
+			.description {
+				position: relative;
+				font-size: 20px;
+				line-height: 32px;
+				margin-bottom: 37px;
+				z-index: 1;
+				&:before {
+					content: "\f10d";
+					font-family: FontAwesome;
+					position: absolute;
+					left: 0;
+					top: -25px;
+					font-size: 64px;
+					line-height: 64px;
+					color: #EEEEEE;
+					z-index: -1;
+				}
+			}
+			.item-info {
+				position: relative;
+				padding-left: 70px;
+				&:before {
+					content: '';
+					position: absolute;
+					top: 50%;
+					left: 0;
+					width: 50px;
+					height: 1px;
+					background: #dddddd;
+				}
+				h3 {
+					font-size: 20px;
+					line-height: 24px;
+					margin: 0px 0px 10px;
+				}
+				span {
+					font-size: 14px;
+					color: #999999;
+					font-style: italic;
+					line-height: 19px;
+				}
+			}
+		}
+	}
+}
+
+//Thim Brands
+.thim-brands {
+	width: 100%;
+	overflow: hidden;
+	.owl-wrapper-outer {
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+	.owl-item {
+		margin: 0px;
+		padding: 0px 15px;
+	}
+	.item-brands {
+		width: 100%;
+		float: left;
+		max-height: 75px;
+		text-align: center;
+		line-height: 75px;
+		a {
+			line-height: 75px;
+			display: inline-block;
+			width: 100%;
+			vertical-align: middle;
+			img {
+				display: inline-block ;
+				width: auto;
+				@include transition(all 0.5s);
+				&:hover {
+					transform: scale(1.07);
+					-webkit-transform: scale(1.07);
+					-moz-transform: scale(1.07);
+					-ms-transform: scale(1.07);
+					-o-transform: scale(1.07);
+				}
+			}
+		}
+	}
+}
+
+//Thim Social Link
+.widget_social_link_widget {
+	display: inline-block;
+	width: 100%;
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		li {
+			float: left;
+			margin-right: 12px;
+			a {
+				font-size: 0;
+				width: 30px;
+				height: 30px;
+				line-height: 28px;
+				border: 1px solid #ffffff;
+				color: #ffffff;
+				border-radius: 50%;
+				display: inline-block;
+				text-align: center;
+				i {
+					font-size: 14px;
+					display: inline-block;
+					line-height: 28px;
+				}
+			}
+		}
+	}
+}
+
+//Thim Widget Single Image
+.single-image {
+	&.center {
+		text-align: center;
+	}
+	&.right {
+		text-align: right;
+	}
+}

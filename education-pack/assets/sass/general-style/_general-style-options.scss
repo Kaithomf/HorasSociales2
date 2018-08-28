@@ -1,0 +1,63 @@
+/*
+ * General style customizer options */
+.color {
+  color: $thim_body_primary_color;
+}
+
+.flexslider {
+  .flex-direction-nav a {
+    background: $thim_body_primary_color;
+    &:before {
+      color: $thim_body_primary_color;
+    }
+    &:hover {
+      background: $thim_body_primary_color;
+    }
+  }
+}
+
+//Home Page
+.action-info {
+  .button {
+    font-family: $thim_font_title_font_family;
+  }
+}
+.gallery-info {
+  .all-gallery {
+    font-family: $thim_font_title_font_family;
+    &:after {
+      color: $thim_body_primary_color;
+    }
+  }
+}
+
+// About Page
+.list-about {
+  li {
+    &:before {
+      color: $thim_body_primary_color;
+    }
+    a:hover {
+      color: $thim_body_primary_color;
+    }
+  }
+}
+
+//Contact Page
+.wpcf7-form {
+  input, textarea {
+    &:focus, &:hover {
+      border-color: $thim_body_primary_color;
+    }
+  }
+
+  .contact-button {
+    .wpcf7-submit {
+      font-family: $thim_font_title_font_family;
+      &:focus, &:hover {
+        border-color: $thim_body_primary_color;
+        color: $thim_body_primary_color;
+      }
+    }
+  }
+}

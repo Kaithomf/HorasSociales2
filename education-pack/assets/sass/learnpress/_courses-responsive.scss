@@ -1,0 +1,34 @@
+@media (max-width: 768px) {
+	.responsive.archive.learnpress {
+		#top-sidebar-courses:before {
+			width: auto;
+			left: -15px;
+			right: -15px;
+		}
+	}
+
+	body.learnpress.content-item-only #learn-press-content-item .learn-press-content-item-container{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+
+@media (max-width: 480px) {
+	.responsive.archive.learnpress {
+		.thim-course-top {
+			> .row {
+				> [class^=col-] {
+					width: 100%;
+					.courses-searching {
+						form {
+							display: block;
+							input {
+								width: 100%;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

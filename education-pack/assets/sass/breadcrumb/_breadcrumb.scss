@@ -1,0 +1,70 @@
+.main-top {
+	clear: both;
+	position: relative;
+	background-size: cover;
+	overflow: hidden;
+	z-index: 8;
+	background-repeat: no-repeat;
+	background-color: #666666;
+	background-position: center;
+
+	.overlay-top-header {
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		z-index: 1;
+	}
+	.content {
+		position: absolute;
+		z-index: 3;
+		right: 0;
+		left: 0;
+		border: 0;
+		margin: auto;
+		top: 50%;
+		@include translate(0%, -50%);
+		h1,
+		h2 {
+			margin-top: 0;
+			text-align: inherit;
+			line-height: 48px;
+			letter-spacing: 0.05em;
+		}
+		.banner-description {
+			font-weight: 300;
+			text-align: inherit;
+		}
+	}
+}
+
+#breadcrumbs {
+	padding: 0;
+	margin: 20px 0px 0px;
+	border: none;
+	li {
+		line-height: 28px;
+		display: inline-block;
+		list-style: none;
+		a {
+			line-height: 28px;
+			display: inline-block;
+		}
+		span.breadcrum-icon {
+			margin: 0 10px;
+			@include opacity(.5);
+		}
+
+		&:last-child:after {
+			display: none;
+		}
+		&:last-child {
+			.breadcrum-icon {
+				display: none;
+			}
+		}
+	}
+}
+
+

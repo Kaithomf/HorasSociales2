@@ -1,0 +1,110 @@
+.widget_lp-widget-featured-courses,
+.widget_lp-widget-popular-courses,
+.widget_lp-widget-recent-courses {
+  position: relative;
+  overflow: hidden;
+  .widget-title {
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+  }
+  .widget-body {
+    @include clearfix;
+    margin: 0 -15px;
+    .course-entry {
+      width: 33.33%;
+      float: left;
+      padding: 0 15px 20px;
+      .widget-area & {
+        width: 100%;
+      }
+      .course-cover {
+        height: 180px;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+      .course-detail {
+        .course-description {
+          margin: 15px 0 20px;
+        }
+        .course-title {
+          font-size: 18px;
+          color: inherit;
+        }
+        .course-meta-data {
+          .course-meta-field {
+            margin-bottom: 10px;
+            width: 49%;
+            float: left;
+            color: #fff;
+            padding: 0 20px;
+            height: 45px;
+            line-height: 45px;
+            font-size: 13px;
+            text-transform: uppercase;
+            text-align: center;
+            &:nth-child(2n) {
+              float: right;
+            }
+            >a {
+              display: block;
+              height: 45px;
+              width: 100%;
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+  .widget-footer {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    .post-type-archive-lp_course & {
+      display: none !important;
+    }
+    a {
+      .widget-area & {
+        float: left !important;
+        display: block;
+        height: 45px;
+        line-height: 45px;
+        color: #fff !important;
+        padding: 0 20px;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: bold;
+        width: 100%;
+      }
+    }
+    .widget-area & {
+      position: static;
+    }
+    a:after {
+      font-family: FontAwesome;
+      content: "\f101";
+    }
+  }
+}
+
+.widget-area {
+  .widget_lp-widget-featured-courses,
+  .widget_lp-widget-popular-courses,
+  .widget_lp-widget-recent-courses {
+    .widget-body .course-entry .course-detail .course-meta-data .course-meta-field {
+      background: none;
+      color: #333;
+      text-transform: capitalize;
+      border: 1px solid #eee;
+      >a {
+        color: #333;
+      }
+    }
+  }
+}
+

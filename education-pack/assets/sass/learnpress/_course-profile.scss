@@ -1,0 +1,151 @@
+#learn-press-profile-header {
+	height: auto;
+}
+#learn-press-user-profile {
+	margin-top: 50px;
+}
+#learn-press-profile-nav .tabs li {
+	a {
+		padding: 10px 20px;
+		color: #181818;
+	}
+	&.active, &:hover:not(.active) {
+		> a {
+			color: #fff;
+			background: #3498db;
+		}
+	}
+	ul li {
+		margin-bottom: 0;
+	}
+}
+#learn-press-profile-nav {
+	padding-top: 60px;
+}
+.profile {
+	.archive-courses {
+		padding: 0;
+	}
+	.lp-tab-sections {
+		.section-tab {
+			a, span {
+				display: inline-block;
+				padding: 15px 20px;
+				color: #181818;
+			}
+			&.active, &:hover {
+				span, a {
+					border: none;
+					padding-bottom: 15px;
+					color: #fff;
+					background: #3498db;
+				}
+			}
+		}
+	}
+	#learn-press-profile-content {
+		margin-top: 0;
+	}
+	.lp-user-profile .profile-name {
+		text-transform: uppercase;
+	}
+	input {
+		line-height: 38px;
+		border: 1px solid #eee;
+		border-radius: 5px;
+		padding: 0 10px !important;
+	}
+	textarea {
+		border: 1px solid #eee;
+		border-radius: 5px;
+		padding: 10px !important;
+	}
+	.dk-selected {
+		line-height: 38px;
+		border: 1px solid #eee;
+		border-radius: 5px;
+		padding: 0 10px;
+	}
+	&.learnpress-page button {
+		padding: 0 30px;
+		border: none;
+		border-radius: 5px;
+		-webkit-border-radius: 5px;
+		color: #fff;
+		text-transform: uppercase;
+		font-weight: 600;
+		line-height: 40px;
+		background: #3498db;
+	}
+	&.learnpress-page button:hover {
+		background: #181818;
+	}
+	#profile-content-wishlist {
+		ul.learn-press-courses .course {
+			display: flex;
+			width: 100%;
+			align-items: center;
+			margin: 0 0 20px;
+			padding-bottom: 20px;
+			border-bottom: 1px solid #eee;
+			h2 {
+				font-size: 20px;
+				margin: 0;
+				line-height: 30px;
+				width: 70%;
+				a {
+					color: #181818;
+				}
+			}
+			button {
+				width: 30%;
+			}
+		}
+	}
+}
+.profile-recover-order input[name="order-key"] {
+	width: 250px;
+	display: inline-block;
+	line-height: 38px;
+	border-radius: 5px;
+	box-shadow: none;
+	padding: 0 10px;
+	outline: none;
+	border: 1px solid #eee;
+}
+
+.learnpress {
+	#learn-press-checkout-login {
+		padding-bottom: 25px;
+		h3 {
+			font-size: 24px;
+			text-transform: uppercase;
+		}
+		.form-fields .form-field input {
+			border: 1px solid #eee;
+		}
+	}
+	button.lp-button-guest-checkout {
+		outline: none;
+		margin-top: 20px;
+		border: none;
+		color: #fff !important;
+		text-transform: uppercase;
+		font-size: 13px;
+		font-weight: 700;
+		padding: 0 30px;
+	}
+}
+
+#learn-press-checkout-register {
+	padding-bottom: 25px;
+}
+.learn-press-form-register {
+	h3 {
+		font-size: 24px !important;
+		text-transform: uppercase;
+	}
+	input {
+		border: 1px solid #eee;
+	}
+}

@@ -1,0 +1,336 @@
+@charset "UTF-8";
+.course-review-wrapper {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 99999;
+	text-align: center;
+}
+
+.review-overlay {
+	background: #000;
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	opacity: 0.6;
+}
+
+.review-form {
+	background-color: rgb(255, 255, 255);
+	padding: 20px;
+	position: relative;
+	width: 80%;
+	max-width: 600px;
+	margin-top: 50px;
+	display: inline-block;
+	text-align: left;
+}
+
+.review-form h3 {
+	font-size: 16px;
+	margin: 0 0 20px;
+}
+
+.review-form h3 .close {
+	float: right;
+	border: none;
+	text-decoration: none;
+	width: auto;
+	height: auto;
+	margin-right: -9px;
+	margin-top: -7px;
+}
+
+.review-form h3 .close:before {
+	font-size: 32px;
+}
+
+.review-form .review-fields {
+	margin: 0 0 -20px;
+	list-style: none;
+}
+
+.review-form .review-fields > li {
+	margin: 0 0 40px 0;
+}
+
+.review-form .review-fields > li > label {
+	display: block;
+	margin: 0 0 7px;
+	font-size: 15px;
+}
+
+.review-form .review-fields > li > label .required {
+	margin-left: 5px;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 24px;
+	line-height: 1;
+	height: 15px;
+	margin-top: -3px;
+}
+
+.review-form .review-fields > li input[type="text"],
+.review-form .review-fields > li textarea {
+	width: 100%;
+}
+
+#review-overlay {
+	background-color: rgba(0, 0, 0, .25);
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+#review-overlay > .review-wrapper {
+	align-self: center;
+	background-color: rgba(0, 0, 0, .25);
+	border-radius: 2px;
+	padding: 6px;
+	width: 450px;
+}
+
+#review-overlay .review-content {
+	background-color: rgb(255, 255, 255);
+	border-radius: 2px;
+	padding: 24px;
+	position: relative;
+}
+
+#review {
+	position: fixed;
+	z-index: 99999;
+	display: none;
+	align-self: center;
+	background-color: rgba(0, 0, 0, .25);
+	border-radius: 2px;
+	padding: 6px;
+	width: 500px;
+	top: 50px;
+	left: 50%;
+	margin-left: -250px;
+}
+
+#review .review-content {
+	background-color: rgb(255, 255, 255);
+	border-radius: 2px;
+	padding: 24px;
+	position: relative;
+}
+
+#review h3 {
+	font-size: 16px;
+	margin: 0 0 20px;
+}
+
+#review h3 .close {
+	float: right;
+	border: none;
+	text-decoration: none;
+	width: auto;
+	height: auto;
+	margin-right: -9px;
+	margin-top: -7px;
+}
+
+#review h3 .close:before {
+	font-size: 32px;
+}
+
+#review .review-fields {
+	margin: 0 0 -20px;
+	list-style: none;
+}
+
+#review .review-fields > li {
+	margin: 0 0 20px 0;
+}
+
+#review .review-fields > li > label {
+	display: block;
+	margin: 0 0 7px;
+	font-size: 15px;
+}
+
+#review .review-fields > li > label .required {
+	margin-left: 5px;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 24px;
+	line-height: 1;
+	height: 15px;
+	margin-top: -3px;
+}
+
+.review-stars {
+	margin: 0 0;
+	list-style: none;
+}
+
+.review-stars:after {
+	clear: both;
+	content: '';
+	display: block;
+}
+
+.review-stars > li {
+	width: 16px;
+	height: 20px;
+	list-style: none;
+	float: left;
+}
+
+.review-stars > li span {
+	text-decoration: none;
+	font-size: 16px;
+	border-bottom: none;
+	width: auto;
+	height: auto;
+}
+
+.review-stars > li a:visited,
+.review-stars > li a:focus {
+	border: none;
+}
+
+.review-stars > li span:before {
+	width: 40px;
+	height: 40px;
+}
+
+.review-stars > li span.hover:before {
+	content: "\f155";
+	color: #F05A19;
+	cursor: pointer;
+}
+
+#review .review-actions {
+	text-align: right;
+	padding-top: 20px;
+	border-top: 1px solid #F0F0F0;
+}
+
+#review .submitting {
+	display: none;
+}
+
+#review .review-stars {
+	cursor: pointer;
+}
+
+.review-stars-rated {
+	position: relative;
+	width: auto;
+}
+
+.review-stars-rated .review-stars {
+	display: inline-block;
+}
+
+.review-stars-rated .review-stars.filled {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	white-space: nowrap;
+	overflow: hidden;
+	color: #ffb606;
+	height: 20px;
+}
+
+.review-stars-rated .review-stars.empty, .review-stars-rated .review-stars.filled {
+	overflow: hidden;
+	line-height: 1;
+	font-size: 11px;
+	width: 60px;
+	font-family: FontAwesome;
+	color: #cfcfcf;
+}
+
+.review-stars-rated .review-stars.empty:before {
+	content: "\f006\f006\f006\f006\f006";
+}
+
+.review-stars-rated .review-stars.filled:before {
+	content: "\f005\f005\f005\f005\f005";
+}
+
+#course-reviews .loading {
+	display: none;
+}
+
+.course-review-wrapper {
+	.review-form {
+		.review-fields {
+			input, textarea {
+				border: none;
+				background-color: #F8F8F8;
+				color: #AAA;
+				width: 100%;
+				padding: 12px 20px;
+				border-radius: 5px;
+			}
+			label {
+				margin-left: 20px;
+			}
+			.review-stars {
+				margin-left: 20px;
+			}
+			.review-actions {
+				button {
+					color: #fff;
+					border-radius: 5px;
+					width: auto;
+					padding: 6px 25px;
+					text-align: center;
+					border: 1px solid;
+					margin-right: 10px;
+					&:hover {
+						background-color: #323945;
+					}
+				}
+			}
+		}
+	}
+}
+
+#learn-press-course-tabs {
+	.review-stars-rated .review-stars.empty, .review-stars-rated .review-stars.filled {
+		color: #f2b827;
+		font-size: 16px;
+		width: 84px;
+	}
+	.review-stars-rated .review-stars.empty:before {
+		color: #f2b827;
+	}
+	.review-stars-rated .review-stars.filled:before {
+		font-size: 16px;
+	}
+}
+
+.learnpress button.write-a-review {
+	padding: 0 25px;
+	border-radius: 5px;
+	background: #3498db;
+}
+
+#course-item-content-header .form-button.lp-button-back button {
+	padding: 0 30px;
+	border: none;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+	line-height: 40px;
+	background: #181818;
+}
